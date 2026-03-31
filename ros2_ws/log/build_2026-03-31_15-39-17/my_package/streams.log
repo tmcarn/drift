@@ -1,0 +1,19 @@
+[0.389s] Invoking command in '/home/theo/drift/ros2_ws/build/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/theo/drift/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/drift/ros2_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/theo/drift/ros2_ws/build/my_package/build --no-deps symlink_data
+[0.495s] running develop
+[0.556s] running egg_info
+[0.561s] writing my_package.egg-info/PKG-INFO
+[0.562s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[0.562s] writing entry points to my_package.egg-info/entry_points.txt
+[0.562s] writing requirements to my_package.egg-info/requires.txt
+[0.562s] writing top-level names to my_package.egg-info/top_level.txt
+[0.573s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[0.575s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[0.579s] running build_ext
+[0.580s] Creating /home/theo/drift/ros2_ws/install/my_package/lib/python3.12/site-packages/my-package.egg-link (link to .)
+[0.580s] Installing arm_controller script to /home/theo/drift/ros2_ws/install/my_package/lib/my_package
+[0.580s] Installing diff_drive_controller script to /home/theo/drift/ros2_ws/install/my_package/lib/my_package
+[0.580s] 
+[0.580s] Installed /home/theo/drift/ros2_ws/build/my_package
+[0.581s] running symlink_data
+[0.581s] symbolically linking /home/theo/drift/ros2_ws/build/my_package/config/arm.rviz -> /home/theo/drift/ros2_ws/install/my_package/share/my_package/config
+[0.594s] Invoked command in '/home/theo/drift/ros2_ws/build/my_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/theo/drift/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/drift/ros2_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/theo/drift/ros2_ws/build/my_package/build --no-deps symlink_data

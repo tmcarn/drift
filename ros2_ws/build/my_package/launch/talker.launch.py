@@ -1,1 +1,0 @@
-/home/theo/drift/ros2_ws/src/my_package/launch/talker.launch.py

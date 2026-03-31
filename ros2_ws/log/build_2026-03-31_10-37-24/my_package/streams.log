@@ -1,0 +1,35 @@
+[0.318s] Invoking command in '/home/theo/drift/ros2_ws/build/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/theo/drift/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/drift/ros2_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/theo/drift/ros2_ws/build/my_package/build --no-deps symlink_data
+[0.418s] running develop
+[0.473s] running egg_info
+[0.473s] creating my_package.egg-info
+[0.478s] writing my_package.egg-info/PKG-INFO
+[0.478s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[0.478s] writing entry points to my_package.egg-info/entry_points.txt
+[0.478s] writing requirements to my_package.egg-info/requires.txt
+[0.478s] writing top-level names to my_package.egg-info/top_level.txt
+[0.478s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[0.489s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[0.489s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[0.495s] running build_ext
+[0.495s] Creating /home/theo/drift/ros2_ws/install/my_package/lib/python3.12/site-packages/my-package.egg-link (link to .)
+[0.495s] Installing arm_controller script to /home/theo/drift/ros2_ws/install/my_package/lib/my_package
+[0.495s] Installing diff_drive_controller script to /home/theo/drift/ros2_ws/install/my_package/lib/my_package
+[0.496s] 
+[0.496s] Installed /home/theo/drift/ros2_ws/build/my_package
+[0.496s] running symlink_data
+[0.496s] creating /home/theo/drift/ros2_ws/install/my_package/share/ament_index
+[0.496s] creating /home/theo/drift/ros2_ws/install/my_package/share/ament_index/resource_index
+[0.496s] creating /home/theo/drift/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[0.496s] symbolically linking /home/theo/drift/ros2_ws/build/my_package/resource/my_package -> /home/theo/drift/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[0.496s] symbolically linking /home/theo/drift/ros2_ws/build/my_package/package.xml -> /home/theo/drift/ros2_ws/install/my_package/share/my_package
+[0.496s] creating /home/theo/drift/ros2_ws/install/my_package/share/my_package/launch
+[0.496s] symbolically linking /home/theo/drift/ros2_ws/build/my_package/launch/arm.launch.py -> /home/theo/drift/ros2_ws/install/my_package/share/my_package/launch
+[0.496s] symbolically linking /home/theo/drift/ros2_ws/build/my_package/launch/sim.launch.py -> /home/theo/drift/ros2_ws/install/my_package/share/my_package/launch
+[0.496s] creating /home/theo/drift/ros2_ws/install/my_package/share/my_package/urdf
+[0.496s] symbolically linking /home/theo/drift/ros2_ws/build/my_package/urdf/arm.urdf.xacro -> /home/theo/drift/ros2_ws/install/my_package/share/my_package/urdf
+[0.496s] symbolically linking /home/theo/drift/ros2_ws/build/my_package/urdf/diff_drive.urdf.xacro -> /home/theo/drift/ros2_ws/install/my_package/share/my_package/urdf
+[0.496s] creating /home/theo/drift/ros2_ws/install/my_package/share/my_package/config
+[0.496s] symbolically linking /home/theo/drift/ros2_ws/build/my_package/config/arm_controllers.yaml -> /home/theo/drift/ros2_ws/install/my_package/share/my_package/config
+[0.496s] symbolically linking /home/theo/drift/ros2_ws/build/my_package/config/controllers.yaml -> /home/theo/drift/ros2_ws/install/my_package/share/my_package/config
+[0.496s] symbolically linking /home/theo/drift/ros2_ws/build/my_package/config/rviz.rviz -> /home/theo/drift/ros2_ws/install/my_package/share/my_package/config
+[0.511s] Invoked command in '/home/theo/drift/ros2_ws/build/my_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/theo/drift/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/drift/ros2_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/theo/drift/ros2_ws/build/my_package/build --no-deps symlink_data
