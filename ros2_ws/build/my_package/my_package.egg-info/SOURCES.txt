@@ -5,13 +5,10 @@ config/arm.rviz
 config/arm_controllers.yaml
 config/controllers.yaml
 config/rviz.rviz
-config/moveit/arm.srdf
-config/moveit/kinematics.yaml
-config/moveit/moveit_controllers.yaml
-config/moveit/planning.yaml
 launch/arm.launch.py
 launch/sim.launch.py
 my_package/__init__.py
+my_package/arm_ik_controller.py
 my_package.egg-info/PKG-INFO
 my_package.egg-info/SOURCES.txt
 my_package.egg-info/dependency_links.txt

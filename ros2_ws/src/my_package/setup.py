@@ -16,8 +16,6 @@ setup(
         ('share/my_package/urdf', glob('urdf/*.xacro')),
         ('share/my_package/config', glob('config/*.yaml')),
         ('share/my_package/config', glob('config/*.rviz')),
-        ('share/my_package/config/moveit', glob('config/moveit/*.yaml')),
-        ('share/my_package/config/moveit', glob('config/moveit/*.srdf')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -34,6 +32,7 @@ setup(
         'console_scripts': [
             'diff_drive_controller = my_package.sim:main',
             'arm_controller = my_package.arm:main',
+            'arm_ik_controller = my_package.arm_ik_controller:main',
         ],
     },
 )

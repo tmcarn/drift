@@ -1,3 +1,4 @@
 [console_scripts]
 arm_controller = my_package.arm:main
+arm_ik_controller = my_package.arm_ik_controller:main
 diff_drive_controller = my_package.sim:main
