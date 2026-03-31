@@ -1,0 +1,38 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50  # Hz
+
+    diff_drive_controller:
+      type: diff_drive_controller/DiffDriveController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+diff_drive_controller:
+  ros__parameters:
+    left_wheel_names: ["left_wheel_joint"]
+    right_wheel_names: ["right_wheel_joint"]
+
+    wheel_separation: 0.34        # meters, center-to-center
+    wheel_radius: 0.05            # meters
+
+    # Odometry
+    odom_frame_id: odom
+    base_frame_id: base_link
+    publish_rate: 50.0            # Hz for odom
+    open_loop: false              # true = pure integration, false = uses wheel feedback
+    enable_odom_tf: true
+
+    # Velocity limits
+    linear.x.has_velocity_limits: true
+    linear.x.max_velocity: 1.0
+    linear.x.has_acceleration_limits: true
+    linear.x.max_acceleration: 0.5
+
+    angular.z.has_velocity_limits: true
+    angular.z.max_velocity: 2.0
+    angular.z.has_acceleration_limits: true
+    angular.z.max_acceleration: 1.0
+
+    # Timeout: stop wheels if no cmd received for this long
+    cmd_vel_timeout: 0.5
