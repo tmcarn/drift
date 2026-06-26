@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_med14_r820_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/config/joint_limits.yaml
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/launch/view_robot.launch.py
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/collision/link_0.stl
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/collision/link_1.stl
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/collision/link_2.stl
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/collision/link_3.stl
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/collision/link_4.stl
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/collision/link_5.stl
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/collision/link_6.stl
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/collision/link_7.stl
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/visual/link_0.dae
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/visual/link_1.dae
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/visual/link_2.dae
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/visual/link_3.dae
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/visual/link_4.dae
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/visual/link_5.dae
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/visual/link_6.dae
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/meshes/visual/link_7.dae
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/rviz/view_robot.rviz
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/urdf/lbr_med14_r820.urdf.xacro
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/urdf/lbr_med14_r820_macro.xacro
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/environment/lbr_med14_r820_description.dsv
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/ament_index/resource_index/package_run_dependencies/lbr_med14_r820_description
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/ament_index/resource_index/parent_prefix_path/lbr_med14_r820_description
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/environment/path.sh
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/environment/path.dsv
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/local_setup.bash
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/local_setup.sh
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/local_setup.zsh
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/local_setup.dsv
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/package.dsv
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/ament_index/resource_index/packages/lbr_med14_r820_description
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/cmake/lbr_med14_r820_descriptionConfig.cmake
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/cmake/lbr_med14_r820_descriptionConfig-version.cmake
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med14_r820_description/share/lbr_med14_r820_description/package.xml

@@ -1,0 +1,15 @@
+/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_fri_ros2_stack/share/ament_index/resource_index/package_run_dependencies/lbr_fri_ros2_stack
+/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_fri_ros2_stack/share/ament_index/resource_index/parent_prefix_path/lbr_fri_ros2_stack
+/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_fri_ros2_stack/share/lbr_fri_ros2_stack/environment/ament_prefix_path.sh
+/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_fri_ros2_stack/share/lbr_fri_ros2_stack/environment/ament_prefix_path.dsv
+/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_fri_ros2_stack/share/lbr_fri_ros2_stack/environment/path.sh
+/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_fri_ros2_stack/share/lbr_fri_ros2_stack/environment/path.dsv
+/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_fri_ros2_stack/share/lbr_fri_ros2_stack/local_setup.bash
+/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_fri_ros2_stack/share/lbr_fri_ros2_stack/local_setup.sh
+/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_fri_ros2_stack/share/lbr_fri_ros2_stack/local_setup.zsh
+/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_fri_ros2_stack/share/lbr_fri_ros2_stack/local_setup.dsv
+/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_fri_ros2_stack/share/lbr_fri_ros2_stack/package.dsv
+/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_fri_ros2_stack/share/ament_index/resource_index/packages/lbr_fri_ros2_stack
+/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_fri_ros2_stack/share/lbr_fri_ros2_stack/cmake/lbr_fri_ros2_stackConfig.cmake
+/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_fri_ros2_stack/share/lbr_fri_ros2_stack/cmake/lbr_fri_ros2_stackConfig-version.cmake
+/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_fri_ros2_stack/share/lbr_fri_ros2_stack/package.xml

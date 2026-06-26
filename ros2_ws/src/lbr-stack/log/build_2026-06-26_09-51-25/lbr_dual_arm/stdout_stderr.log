@@ -1,0 +1,43 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_dual_arm
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/config/dual_arm_controllers.yaml
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/config/initial_joint_positions.yaml
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/config/joint_limits.yaml
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/config/lbr_one_system_config.yaml
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/config/lbr_two_system_config.yaml
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/launch/hardware.launch.py
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/launch/mock.launch.py
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/urdf/lbr_dual_arm.xacro
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/ament_index/resource_index/package_run_dependencies/lbr_dual_arm
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/ament_index/resource_index/parent_prefix_path/lbr_dual_arm
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/environment/ament_prefix_path.sh
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/environment/ament_prefix_path.dsv
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/environment/path.sh
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/environment/path.dsv
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/local_setup.bash
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/local_setup.sh
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/local_setup.zsh
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/local_setup.dsv
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/package.dsv
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/ament_index/resource_index/packages/lbr_dual_arm
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/cmake/lbr_dual_armConfig.cmake
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/cmake/lbr_dual_armConfig-version.cmake
+-- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_dual_arm/share/lbr_dual_arm/package.xml

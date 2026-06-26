@@ -1,0 +1,1 @@
+/home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_fri_idl/rosidl_typesupport_introspection_c/lbr_fri_idl/msg/rosidl_typesupport_introspection_c__visibility_control.h

@@ -1,0 +1,1 @@
+/home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_dual_arm/ament_cmake_core/lbr_dual_armConfig-version.cmake

@@ -1,0 +1,1 @@
+/home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_iiwa7_r800_description/ament_cmake_core/lbr_iiwa7_r800_descriptionConfig-version.cmake

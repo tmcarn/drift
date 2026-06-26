@@ -1,0 +1,14 @@
+/home/theo/drift/ros2_ws/src/lbr-stack/install/fri_client_sdk/lib/libFRIClient.so
+/home/theo/drift/ros2_ws/src/lbr-stack/install/fri_client_sdk/include/friTransformationClient.h
+/home/theo/drift/ros2_ws/src/lbr-stack/install/fri_client_sdk/include/friConnectionIf.h
+/home/theo/drift/ros2_ws/src/lbr-stack/install/fri_client_sdk/include/friUdpConnection.h
+/home/theo/drift/ros2_ws/src/lbr-stack/install/fri_client_sdk/include/friLBRCommand.h
+/home/theo/drift/ros2_ws/src/lbr-stack/install/fri_client_sdk/include/friClientApplication.h
+/home/theo/drift/ros2_ws/src/lbr-stack/install/fri_client_sdk/include/friLBRState.h
+/home/theo/drift/ros2_ws/src/lbr-stack/install/fri_client_sdk/include/friLBRClient.h
+/home/theo/drift/ros2_ws/src/lbr-stack/install/fri_client_sdk/include/friClientIf.h
+/home/theo/drift/ros2_ws/src/lbr-stack/install/fri_client_sdk/include/friClientVersion.h
+/home/theo/drift/ros2_ws/src/lbr-stack/install/fri_client_sdk/include/friException.h
+/home/theo/drift/ros2_ws/src/lbr-stack/install/fri_client_sdk/lib/cmake/FRIClient/FRIClientConfig.cmake
+/home/theo/drift/ros2_ws/src/lbr-stack/install/fri_client_sdk/lib/cmake/FRIClient/FRIClientConfig-release.cmake
+/home/theo/drift/ros2_ws/src/lbr-stack/install/fri_client_sdk/lib/cmake/FRIClient/FRIClientConfigVersion.cmake

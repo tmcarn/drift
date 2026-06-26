@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-096d1f7deb6760b37606.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lbr_demos_advanced_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lbr_demos_advanced_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lbr_demos_advanced_cpp_uninstall-Release-bb35734bf4968fe901af.json",
+					"name" : "lbr_demos_advanced_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_control-Release-6a82aec92b2da4a0fcc3.json",
+					"name" : "pose_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_control_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_control_component-Release-dd8ecc0b221d040d9de5.json",
+					"name" : "pose_control_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_planning::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_planning-Release-cba8f46038f7459ebe94.json",
+					"name" : "pose_planning",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_planning_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_planning_component-Release-dc4078d31c14dcbcdf90.json",
+					"name" : "pose_planning_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-8685c0d818231cf07124.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_demos_advanced_cpp",
+		"source" : "/home/theo/drift/ros2_ws/src/lbr-stack/src/lbr_fri_ros2_stack/lbr_demos/lbr_demos_advanced_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

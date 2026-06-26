@@ -1,0 +1,3 @@
+# generated from colcon_core/shell/template/hook_prepend_value.sh.em
+
+_colcon_prepend_unique_value PYTHONPATH "/home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_demos_advanced_py"

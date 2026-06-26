@@ -1,0 +1,1 @@
+/home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_fri_idl/ament_cmake_environment_hooks/local_setup.bash

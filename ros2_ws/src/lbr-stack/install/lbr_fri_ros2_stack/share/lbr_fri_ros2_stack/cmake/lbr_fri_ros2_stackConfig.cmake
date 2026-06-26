@@ -1,0 +1,1 @@
+/home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_fri_ros2_stack/ament_cmake_core/lbr_fri_ros2_stackConfig.cmake

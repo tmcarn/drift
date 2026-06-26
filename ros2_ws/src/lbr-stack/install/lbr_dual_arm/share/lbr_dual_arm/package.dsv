@@ -1,0 +1,6 @@
+source;share/lbr_dual_arm/hook/cmake_prefix_path.dsv
+source;share/lbr_dual_arm/hook/cmake_prefix_path.sh
+source;share/lbr_dual_arm/local_setup.bash
+source;share/lbr_dual_arm/local_setup.dsv
+source;share/lbr_dual_arm/local_setup.sh
+source;share/lbr_dual_arm/local_setup.zsh

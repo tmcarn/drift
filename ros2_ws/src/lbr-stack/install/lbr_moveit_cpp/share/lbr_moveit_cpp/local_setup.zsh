@@ -1,0 +1,1 @@
+/home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_moveit_cpp/ament_cmake_environment_hooks/local_setup.zsh

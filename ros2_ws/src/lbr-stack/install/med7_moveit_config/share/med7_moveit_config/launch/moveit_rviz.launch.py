@@ -1,0 +1,1 @@
+/home/theo/drift/ros2_ws/src/lbr-stack/src/lbr_fri_ros2_stack/lbr_moveit_config/med7_moveit_config/launch/moveit_rviz.launch.py

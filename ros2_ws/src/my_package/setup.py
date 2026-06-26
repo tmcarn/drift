@@ -30,9 +30,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'diff_drive_controller = my_package.sim:main',
-            'arm_controller = my_package.arm:main',
-            'arm_ik_controller = my_package.arm_ik_controller:main',
+            'arm_ik = my_package.arm_ik:main',
+            'hit_node = my_package.hit_node:main'
         ],
     },
 )

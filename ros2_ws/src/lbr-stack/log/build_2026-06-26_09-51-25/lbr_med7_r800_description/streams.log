@@ -1,0 +1,63 @@
+[0.004s] Invoking command in '/home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_med7_r800_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/drift/ros2_ws/install/my_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/theo/drift/ros2_ws/src/lbr-stack/src/lbr_med7_r800_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description
+[0.048s] -- The C compiler identification is GNU 13.3.0
+[0.101s] -- The CXX compiler identification is GNU 13.3.0
+[0.114s] -- Detecting C compiler ABI info
+[0.189s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.196s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.201s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.266s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.266s] -- Detecting CXX compile features
+[0.266s] -- Detecting CXX compile features - done
+[0.268s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.350s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.383s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.444s] -- Configuring done (0.4s)
+[0.446s] -- Generating done (0.0s)
+[0.447s] -- Build files have been written to: /home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_med7_r800_description
+[0.454s] Invoked command in '/home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_med7_r800_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/drift/ros2_ws/install/my_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/theo/drift/ros2_ws/src/lbr-stack/src/lbr_med7_r800_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description
+[0.455s] Invoking command in '/home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_med7_r800_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/drift/ros2_ws/install/my_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_med7_r800_description -- -j4 -l4
+[0.479s] Invoked command in '/home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_med7_r800_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/drift/ros2_ws/install/my_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_med7_r800_description -- -j4 -l4
+[0.480s] Invoking command in '/home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_med7_r800_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/drift/ros2_ws/install/my_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_med7_r800_description
+[0.485s] -- Install configuration: ""
+[0.485s] -- Execute custom install script
+[0.486s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/config/joint_limits.yaml
+[0.491s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/launch/view_robot.launch.py
+[0.495s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/collision/link_0.stl
+[0.498s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/collision/link_1.stl
+[0.502s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/collision/link_2.stl
+[0.505s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/collision/link_3.stl
+[0.509s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/collision/link_4.stl
+[0.512s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/collision/link_5.stl
+[0.518s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/collision/link_6.stl
+[0.521s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/collision/link_7.stl
+[0.524s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/visual/link_0.dae
+[0.528s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/visual/link_1.dae
+[0.533s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/visual/link_2.dae
+[0.540s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/visual/link_3.dae
+[0.543s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/visual/link_4.dae
+[0.546s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/visual/link_5.dae
+[0.550s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/visual/link_6.dae
+[0.555s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/meshes/visual/link_7.dae
+[0.559s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/rviz/view_robot.rviz
+[0.562s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/urdf/lbr_med7_r800.urdf.xacro
+[0.568s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/urdf/lbr_med7_r800_macro.xacro
+[0.570s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/environment/lbr_med7_r800_description.dsv
+[0.574s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/ament_index/resource_index/package_run_dependencies/lbr_med7_r800_description
+[0.578s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/ament_index/resource_index/parent_prefix_path/lbr_med7_r800_description
+[0.581s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/environment/ament_prefix_path.sh
+[0.586s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/environment/ament_prefix_path.dsv
+[0.590s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/environment/path.sh
+[0.593s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/environment/path.dsv
+[0.597s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/local_setup.bash
+[0.600s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/local_setup.sh
+[0.604s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/local_setup.zsh
+[0.608s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/local_setup.dsv
+[0.613s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/package.dsv
+[0.615s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/ament_index/resource_index/packages/lbr_med7_r800_description
+[0.618s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/cmake/lbr_med7_r800_descriptionConfig.cmake
+[0.624s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/cmake/lbr_med7_r800_descriptionConfig-version.cmake
+[0.625s] -- Symlinking: /home/theo/drift/ros2_ws/src/lbr-stack/install/lbr_med7_r800_description/share/lbr_med7_r800_description/package.xml
+[0.631s] Invoked command in '/home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_med7_r800_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theo/drift/ros2_ws/install/my_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/theo/drift/ros2_ws/src/lbr-stack/build/lbr_med7_r800_description

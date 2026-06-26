@@ -1,0 +1,1 @@
+/home/theo/drift/ros2_ws/src/lbr-stack/src/lbr_med7_r800_description/launch/view_robot.launch.py
