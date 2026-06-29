@@ -30,7 +30,6 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'arm_ik = my_package.arm_ik:main',
             'hit_node = my_package.hit_node:main'
         ],
     },

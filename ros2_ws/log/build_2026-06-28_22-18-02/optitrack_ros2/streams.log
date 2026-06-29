@@ -1,0 +1,24 @@
+[0.417s] Invoking command in '/home/theo/drift/ros2_ws/build/optitrack_ros2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/theo/drift/ros2_ws/build/optitrack_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/drift/ros2_ws/install/optitrack_ros2/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(roskuka) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/theo/drift/ros2_ws/build/optitrack_ros2/build --no-deps symlink_data
+[0.546s] running develop
+[0.618s] running egg_info
+[0.618s] creating optitrack_ros2.egg-info
+[0.626s] writing optitrack_ros2.egg-info/PKG-INFO
+[0.626s] writing dependency_links to optitrack_ros2.egg-info/dependency_links.txt
+[0.626s] writing entry points to optitrack_ros2.egg-info/entry_points.txt
+[0.626s] writing requirements to optitrack_ros2.egg-info/requires.txt
+[0.626s] writing top-level names to optitrack_ros2.egg-info/top_level.txt
+[0.626s] writing manifest file 'optitrack_ros2.egg-info/SOURCES.txt'
+[0.639s] reading manifest file 'optitrack_ros2.egg-info/SOURCES.txt'
+[0.639s] writing manifest file 'optitrack_ros2.egg-info/SOURCES.txt'
+[0.647s] running build_ext
+[0.651s] Creating /home/theo/drift/ros2_ws/install/optitrack_ros2/lib/python3.12/site-packages/optitrack-ros2.egg-link (link to .)
+[0.651s] Installing mock_optitrack_node script to /home/theo/drift/ros2_ws/install/optitrack_ros2/lib/optitrack_ros2
+[0.651s] 
+[0.651s] Installed /home/theo/drift/ros2_ws/build/optitrack_ros2
+[0.651s] running symlink_data
+[0.651s] creating /home/theo/drift/ros2_ws/install/optitrack_ros2/share/ament_index
+[0.651s] creating /home/theo/drift/ros2_ws/install/optitrack_ros2/share/ament_index/resource_index
+[0.651s] creating /home/theo/drift/ros2_ws/install/optitrack_ros2/share/ament_index/resource_index/packages
+[0.651s] symbolically linking /home/theo/drift/ros2_ws/build/optitrack_ros2/resource/optitrack_ros2 -> /home/theo/drift/ros2_ws/install/optitrack_ros2/share/ament_index/resource_index/packages
+[0.651s] symbolically linking /home/theo/drift/ros2_ws/build/optitrack_ros2/package.xml -> /home/theo/drift/ros2_ws/install/optitrack_ros2/share/optitrack_ros2
+[0.662s] Invoked command in '/home/theo/drift/ros2_ws/build/optitrack_ros2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/theo/drift/ros2_ws/build/optitrack_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/theo/drift/ros2_ws/install/optitrack_ros2/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(roskuka) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/theo/drift/ros2_ws/build/optitrack_ros2/build --no-deps symlink_data

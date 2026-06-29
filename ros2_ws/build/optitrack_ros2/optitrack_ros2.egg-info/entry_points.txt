@@ -1,0 +1,2 @@
+[console_scripts]
+mock_optitrack_node = optitrack_ros2.mock_optitrack_node:main

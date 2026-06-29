@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: optitrack-ros2
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: theo
+Maintainer-email: mcarn.t@northeastern.edu
+License: TODO: License declaration
+Provides-Extra: test
