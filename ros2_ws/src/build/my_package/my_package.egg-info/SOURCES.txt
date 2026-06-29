@@ -1,15 +1,8 @@
 package.xml
 setup.cfg
 setup.py
-config/arm.rviz
-config/arm_controllers.yaml
-config/controllers.yaml
-config/rviz.rviz
-launch/arm.launch.py
-launch/sim.launch.py
+launch/mock.launch.py
 my_package/__init__.py
-my_package/arm_ik.py
-my_package/arm_ik_controller.py
 my_package/hit_node.py
 my_package.egg-info/PKG-INFO
 my_package.egg-info/SOURCES.txt

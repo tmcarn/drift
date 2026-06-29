@@ -26,6 +26,10 @@ from control_msgs.action import FollowJointTrajectory
 from sensor_msgs.msg import JointState
 from trajectory_msgs.msg import JointTrajectoryPoint
 
+from tf2_ros import Buffer, TransformListener
+import rclpy.time
+import rclpy.duration
+
 
 # ── Constants ──────────────────────────────────────────────────────────────────
 
@@ -33,11 +37,15 @@ URDF_PATH   = "/tmp/iiwa7.urdf"
 EE_FRAME    = "lbr_link_ee"
 JOINT_NAMES = ["lbr_A1", "lbr_A2", "lbr_A3", "lbr_A4", "lbr_A5", "lbr_A6", "lbr_A7"]
 
-OBJECT_POSITION   = np.array([0.5, 0.0, 0.5])
+WORLD_FRAME = "world"
+OBJECT_FRAME = "object"
+
 APPROACH_OFFSET   = 0.1    # m   — stop this far before the object
-HIT_VELOCITY      = 0.99    # m/s — desired Cartesian EE speed during hit
+HIT_VELOCITY      = 0.5    # m/s — desired Cartesian EE speed during hit
 HIT_DISTANCE      = 0.15   # m   — total Cartesian distance to travel
-DT                = 0.01   # s   — integration timestep
+DT          = 0.001   # trajectory timestep — controls waypoint density
+IK_DT       = 0.01    # IK integration timestep — controls convergence speed
+IK_N_STEPS  = 500     # more steps to ensure convergence
 
 APPROACH_DURATION = 5.0    # s   — how long to take moving to pre-impact
 RECOIL_DURATION   = 2.0    # s   — how long to take returning after hit
@@ -70,9 +78,15 @@ class PinkHitNode(Node):
         self._js_lock = threading.Lock()
         self.create_subscription(JointState, "/lbr/joint_states", self._js_cb, 10)
 
+        self._tf_buffer = Buffer()
+        self._tf_listener = TransformListener(self._tf_buffer, self)
+
+
         # Run the sequence in a background thread so input() and threading.Event
         # don't block the ROS executor (which lives on the main thread).
         threading.Thread(target=self._run_sequence, daemon=True).start()
+
+
 
 
     # ── Joint state ───────────────────────────────────────────────────────────
@@ -93,6 +107,69 @@ class PinkHitNode(Node):
             time.sleep(0.05)
         self.get_logger().info("Joint state received.")
         return q
+    
+    # -- Pose helpers ------------
+    def _get_object_pose(self):
+        self.get_logger().info("Looking up object pose from TF...")
+        while rclpy.ok():
+            try:
+                tf = self._tf_buffer.lookup_transform(
+                    'world',
+                    'object',
+                    rclpy.time.Time(),
+                    timeout=rclpy.duration.Duration(seconds=1.0),
+                )
+                t = tf.transform.translation
+                r = tf.transform.rotation
+                pos = np.array([t.x, t.y, t.z])
+                quat = np.array([r.x, r.y, r.z, r.w])
+
+                self.get_logger().info(f"OBJECT: {pos}")
+                return pos, quat
+            
+            except Exception as e:
+                self.get_logger().warn(f"TF lookup failed: {e}, retrying...")
+                time.sleep(0.5)
+
+    def _to_base_frame(self, pos_world: np.ndarray):
+        while rclpy.ok():
+            try:
+                tf = self._tf_buffer.lookup_transform(
+                    'world',
+                    'lbr_link_0',
+                    rclpy.time.Time(),
+                    timeout=rclpy.duration.Duration(seconds=1.0),
+                )
+                t = tf.transform.translation
+                r = tf.transform.rotation
+                R = pin.Quaternion(r.w, r.x, r.y, r.z).toRotationMatrix()
+                p = np.array([t.x, t.y, t.z])
+
+                if np.linalg.norm(p) < 0.1:
+                    self.get_logger().warn("Got near-identity transform, retrying...")
+                    time.sleep(0.1)
+                    continue
+
+                self.get_logger().info(f"R:{R}, position:{p}")
+                return R.T @ (pos_world - p), R
+            
+            except Exception as e:
+                self.get_logger().warn(f"base frame lookup failed: {e}, retrying...")
+                time.sleep(0.5)
+
+    def _wait_for_tf(self, target: str, source: str) -> None:
+        self.get_logger().info(f"Waiting for TF: {target} -> {source}...")
+        while rclpy.ok():
+            try:
+                self._tf_buffer.lookup_transform(
+                    target, source,
+                    rclpy.time.Time(),
+                    timeout=rclpy.duration.Duration(seconds=1.0),
+                )
+                self.get_logger().info(f"TF ready: {target} -> {source}")
+                return
+            except Exception:
+                time.sleep(0.1)
 
 
     # ── IK helpers ────────────────────────────────────────────────────────────
@@ -101,7 +178,7 @@ class PinkHitNode(Node):
         self,
         target_pos: np.ndarray,
         q_init: np.ndarray,
-        n_steps: int = 200,
+        n_steps: int = IK_N_STEPS,
     ) -> np.ndarray:
         """Integrate IK from q_init toward target_pos. Returns final joint config."""
         target = pin.SE3(pin.utils.rotate("y", np.pi), target_pos)
@@ -115,13 +192,14 @@ class PinkHitNode(Node):
         q = q_init.copy()
         for _ in range(n_steps):
             cfg = pink.Configuration(self._model, self._data, q)
-            vel = solve_ik(cfg, [ee_task, posture_task], DT, solver="quadprog")
-            q   = cfg.integrate(vel, DT)
+            vel = solve_ik(cfg, [ee_task, posture_task], IK_DT, solver="quadprog")
+            q   = cfg.integrate(vel, IK_DT)
         return q
 
     def _solve_hit_waypoints(
         self,
         q_approach: np.ndarray,
+        v_desired: np.ndarray,
     ) -> list[np.ndarray]:
         """
         Compute hit waypoints using direct Jacobian control.
@@ -140,8 +218,7 @@ class PinkHitNode(Node):
         """
         # Desired EE velocity: translate along world X only, nothing else.
         # Indices 0-2 = linear xyz, 3-5 = angular xyz.
-        v_desired    = np.zeros(6)
-        v_desired[0] = HIT_VELOCITY
+        
 
         frame_id = self._model.getFrameId(EE_FRAME)
         I        = np.eye(len(JOINT_NAMES))
@@ -329,16 +406,39 @@ class PinkHitNode(Node):
           2. The hit trajectory is ready instantly when the user confirms,
              with no solve delay between approach finishing and hit starting.
         """
+        self._wait_for_tf('world', 'object')
+        self._wait_for_tf('world', 'lbr_link_0')
+
         q_start = self._get_current_q()
 
-        pre_impact_pos = OBJECT_POSITION.copy()
-        pre_impact_pos[0] -= APPROACH_OFFSET
+        object_pos, object_quat = self._get_object_pose()
+        self.get_logger().info(f"OBJECT POS:{object_pos}")
+        R = pin.Quaternion(object_quat[3], object_quat[0], object_quat[1], object_quat[2]).toRotationMatrix()
+        hit_direction = R[:, 0]  # local X axis of object in world frame
+        pre_impact_pos = object_pos - (hit_direction * APPROACH_OFFSET)
+        pre_impact_pos_base, R_b2w = self._to_base_frame(pre_impact_pos)
+
+        self.get_logger().info(f"HIT DIR:{hit_direction}")
+        self.get_logger().info(f"PREIMPACT:{pre_impact_pos_base}")
+
 
         self.get_logger().info("Solving IK for approach config...")
-        q_approach = self._solve_ik_to(pre_impact_pos, q_start)
+        q_approach = self._solve_ik_to(pre_impact_pos_base, q_start)
+
+        # verify IK result
+        pin.forwardKinematics(self._model, self._data, q_approach)
+        pin.updateFramePlacements(self._model, self._data)
+        frame_id = self._model.getFrameId(EE_FRAME)
+        ee_pos = self._data.oMf[frame_id].translation.copy()
+        self.get_logger().info(f"Target:  {pre_impact_pos_base}")
+        self.get_logger().info(f"EE pos after IK: {ee_pos}")
+
+        hit_direction_base = R_b2w.T @ hit_direction
+        v_desired    = np.zeros(6)
+        v_desired[:3] = hit_direction_base * HIT_VELOCITY
 
         self.get_logger().info(f"Solving hit waypoints ({N_HIT_STEPS} steps)...")
-        waypoints   = self._solve_hit_waypoints(q_approach)
+        waypoints   = self._solve_hit_waypoints(q_approach, v_desired)
         q_hit_final = waypoints[-1]
 
         self.get_logger().info("All solved. Ready to execute.")
