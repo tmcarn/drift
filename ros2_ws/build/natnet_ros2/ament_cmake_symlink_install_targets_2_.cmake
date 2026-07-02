@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/theo/drift/ros2_ws/build/natnet_ros2/rosidl_generator_py/natnet_ros2/natnet_ros2_s__rosidl_typesupport_c.so" "TARGETS" "natnet_ros2_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/natnet_ros2")

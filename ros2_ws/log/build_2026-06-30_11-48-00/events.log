@@ -1,0 +1,407 @@
+[0.000000] (-) TimerEvent: {}
+[0.001590] (-) JobUnselected: {'identifier': 'fri_client_sdk'}
+[0.001609] (-) JobUnselected: {'identifier': 'iiwa14_moveit_config'}
+[0.001617] (-) JobUnselected: {'identifier': 'iiwa7_moveit_config'}
+[0.001623] (-) JobUnselected: {'identifier': 'lbr_bringup'}
+[0.001628] (-) JobUnselected: {'identifier': 'lbr_demos_advanced_cpp'}
+[0.001632] (-) JobUnselected: {'identifier': 'lbr_demos_advanced_py'}
+[0.001637] (-) JobUnselected: {'identifier': 'lbr_demos_cpp'}
+[0.001641] (-) JobUnselected: {'identifier': 'lbr_demos_py'}
+[0.001645] (-) JobUnselected: {'identifier': 'lbr_dual_arm'}
+[0.001648] (-) JobUnselected: {'identifier': 'lbr_dual_arm_moveit_config'}
+[0.001652] (-) JobUnselected: {'identifier': 'lbr_fri_idl'}
+[0.001656] (-) JobUnselected: {'identifier': 'lbr_fri_ros2'}
+[0.001660] (-) JobUnselected: {'identifier': 'lbr_fri_ros2_stack'}
+[0.001664] (-) JobUnselected: {'identifier': 'lbr_iiwa14_r820_description'}
+[0.001668] (-) JobUnselected: {'identifier': 'lbr_iiwa7_r800_description'}
+[0.001672] (-) JobUnselected: {'identifier': 'lbr_med14_r820_description'}
+[0.001676] (-) JobUnselected: {'identifier': 'lbr_med7_r800_description'}
+[0.001680] (-) JobUnselected: {'identifier': 'lbr_moveit'}
+[0.001684] (-) JobUnselected: {'identifier': 'lbr_moveit_cpp'}
+[0.001696] (-) JobUnselected: {'identifier': 'lbr_ros2_control'}
+[0.001701] (-) JobUnselected: {'identifier': 'med14_moveit_config'}
+[0.001705] (-) JobUnselected: {'identifier': 'med7_moveit_config'}
+[0.001709] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001713] (-) JobUnselected: {'identifier': 'optitrack_ros2'}
+[0.001718] (natnet_ros2) JobQueued: {'identifier': 'natnet_ros2', 'dependencies': OrderedDict()}
+[0.001725] (natnet_ros2) JobStarted: {'identifier': 'natnet_ros2'}
+[0.006977] (natnet_ros2) JobProgress: {'identifier': 'natnet_ros2', 'progress': 'cmake'}
+[0.007508] (natnet_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/theo/drift/ros2_ws/src/natnet_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/theo/drift/ros2_ws/install/natnet_ros2'], 'cwd': '/home/theo/drift/ros2_ws/build/natnet_ros2', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'theo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/theo', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/theo/drift/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.113.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1453', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1673', 'BUNDLED_DEBUGPY_PATH': '/home/theo/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2761', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'theo', 'JOURNAL_STREAM': '9:16491', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'CLAUDE_CODE_SSE_PORT': '54882', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'theo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/theo/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/theo/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/theo/.local/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/theo/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/vm:@/tmp/.ICE-unix/1632,unix/vm:/tmp/.ICE-unix/1632', 'INVOCATION_ID': '2237ee31ecf641569052ece2954123a0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/theo/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-cd575580f77f1a85.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/theo/.config/Code/User/workspaceStorage/92432dadc568e24e6971378003754af0/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OTE1R3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-03f186b3ad.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/theo/drift/ros2_ws/build/natnet_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.032361] (natnet_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.100054] (-) TimerEvent: {}
+[0.139866] (natnet_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.173421] (natnet_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.198289] (natnet_ros2) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.200130] (-) TimerEvent: {}
+[0.228155] (natnet_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.237249] (natnet_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.247487] (natnet_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.258124] (natnet_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299804] (natnet_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.300202] (-) TimerEvent: {}
+[0.302232] (natnet_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.347898] (natnet_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.356258] (natnet_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.365232] (natnet_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400285] (-) TimerEvent: {}
+[0.403883] (natnet_ros2) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[0.421899] (natnet_ros2) StdoutLine: {'line': b'-- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[0.444165] (natnet_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[0.500410] (-) TimerEvent: {}
+[0.510904] (natnet_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.523749] (natnet_ros2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.532989] (natnet_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.536213] (natnet_ros2) StdoutLine: {'line': b'-- Found ament_cmake_auto: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)\n'}
+[0.538314] (natnet_ros2) StdoutLine: {'line': b'-- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[0.600520] (-) TimerEvent: {}
+[0.700691] (-) TimerEvent: {}
+[0.800941] (-) TimerEvent: {}
+[0.837366] (natnet_ros2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.901130] (-) TimerEvent: {}
+[1.001324] (-) TimerEvent: {}
+[1.101511] (-) TimerEvent: {}
+[1.201731] (-) TimerEvent: {}
+[1.247782] (natnet_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.301820] (-) TimerEvent: {}
+[1.402082] (-) TimerEvent: {}
+[1.404386] (natnet_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.407584] (natnet_ros2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.483551] (natnet_ros2) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[1.502174] (-) TimerEvent: {}
+[1.602351] (-) TimerEvent: {}
+[1.702622] (-) TimerEvent: {}
+[1.733522] (natnet_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.766166] (natnet_ros2) StdoutLine: {'line': b'System architecture is ARM.\n'}
+[1.766635] (natnet_ros2) StderrLine: {'line': b'--2026-06-30 11:48:02--  https://d2mzlempwep3hb.cloudfront.net/NatNetSDKLinux/ubuntu_arm/NatNet_SDK_4.4_ubuntu_ARM.tar\n'}
+[1.803147] (-) TimerEvent: {}
+[1.848881] (natnet_ros2) StderrLine: {'line': b'Resolving d2mzlempwep3hb.cloudfront.net (d2mzlempwep3hb.cloudfront.net)... 3.170.21.165\n'}
+[1.865717] (natnet_ros2) StderrLine: {'line': b'Connecting to d2mzlempwep3hb.cloudfront.net (d2mzlempwep3hb.cloudfront.net)|3.170.21.165|:443... connected.\n'}
+[1.903769] (-) TimerEvent: {}
+[2.004127] (-) TimerEvent: {}
+[2.104502] (-) TimerEvent: {}
+[2.205048] (-) TimerEvent: {}
+[2.259588] (natnet_ros2) StderrLine: {'line': b'HTTP request sent, awaiting response... 200 OK\n'}
+[2.259731] (natnet_ros2) StderrLine: {'line': b'Length: 1863680 (1.8M) [application/x-tar]\n'}
+[2.259809] (natnet_ros2) StderrLine: {'line': b'Saving to: \xe2\x80\x98NatNetSDK.tar\xe2\x80\x99\n'}
+[2.261277] (natnet_ros2) StderrLine: {'line': b'\n'}
+[2.278566] (natnet_ros2) StderrLine: {'line': b'     0K .......... .......... .......... .......... ..........  2% 2.57M 1s\n'}
+[2.288954] (natnet_ros2) StderrLine: {'line': b'    50K .......... .......... .......... .......... ..........  5% 4.69M 1s\n'}
+[2.295512] (natnet_ros2) StderrLine: {'line': b'   100K .......... .......... .......... .......... ..........  8% 7.46M 0s\n'}
+[2.302743] (natnet_ros2) StderrLine: {'line': b'   150K .......... .......... .......... .......... .......... 10% 6.75M 0s\n'}
+[2.305161] (-) TimerEvent: {}
+[2.307931] (natnet_ros2) StderrLine: {'line': b'   200K .......... .......... .......... .......... .......... 13% 9.55M 0s\n'}
+[2.311033] (natnet_ros2) StderrLine: {'line': b'   250K .......... .......... .......... .......... .......... 16% 16.0M 0s\n'}
+[2.314778] (natnet_ros2) StderrLine: {'line': b'   300K .......... .......... .......... .......... .......... 19% 12.6M 0s\n'}
+[2.319001] (natnet_ros2) StderrLine: {'line': b'   350K .......... .......... .......... .......... .......... 21% 11.8M 0s\n'}
+[2.320232] (natnet_ros2) StderrLine: {'line': b'   400K .......... .......... .......... .......... .......... 24% 36.1M 0s\n'}
+[2.325145] (natnet_ros2) StderrLine: {'line': b'   450K .......... .......... .......... .......... .......... 27% 12.1M 0s\n'}
+[2.326165] (natnet_ros2) StderrLine: {'line': b'   500K .......... .......... .......... .......... .......... 30% 26.0M 0s\n'}
+[2.327349] (natnet_ros2) StderrLine: {'line': b'   550K .......... .......... .......... .......... .......... 32% 39.4M 0s\n'}
+[2.329146] (natnet_ros2) StderrLine: {'line': b'   600K .......... .......... .......... .......... .......... 35% 27.9M 0s\n'}
+[2.331057] (natnet_ros2) StderrLine: {'line': b'   650K .......... .......... .......... .......... .......... 38% 25.9M 0s\n'}
+[2.332322] (natnet_ros2) StderrLine: {'line': b'   700K .......... .......... .......... .......... .......... 41% 39.5M 0s\n'}
+[2.332619] (natnet_ros2) StderrLine: {'line': b'   750K .......... .......... .......... .......... .......... 43%  121M 0s\n'}
+[2.334634] (natnet_ros2) StderrLine: {'line': b'   800K .......... .......... .......... .......... .......... 46% 25.0M 0s\n'}
+[2.338856] (natnet_ros2) StderrLine: {'line': b'   850K .......... .......... .......... .......... .......... 49% 13.6M 0s\n'}
+[2.339013] (natnet_ros2) StderrLine: {'line': b'   900K .......... .......... .......... .......... .......... 52%  590M 0s\n'}
+[2.339587] (natnet_ros2) StderrLine: {'line': b'   950K .......... .......... .......... .......... .......... 54% 42.1M 0s\n'}
+[2.339724] (natnet_ros2) StderrLine: {'line': b'  1000K .......... .......... .......... .......... .......... 57%  179M 0s\n'}
+[2.341005] (natnet_ros2) StderrLine: {'line': b'  1050K .......... .......... .......... .......... .......... 60% 39.6M 0s\n'}
+[2.342445] (natnet_ros2) StderrLine: {'line': b'  1100K .......... .......... .......... .......... .......... 63% 32.9M 0s\n'}
+[2.344400] (natnet_ros2) StderrLine: {'line': b'  1150K .......... .......... .......... .......... .......... 65% 24.9M 0s\n'}
+[2.345169] (natnet_ros2) StderrLine: {'line': b'  1200K .......... .......... .......... .......... .......... 68% 64.1M 0s\n'}
+[2.345654] (natnet_ros2) StderrLine: {'line': b'  1250K .......... .......... .......... .......... .......... 71% 92.3M 0s\n'}
+[2.347481] (natnet_ros2) StderrLine: {'line': b'  1300K .......... .......... .......... .......... .......... 74% 27.2M 0s\n'}
+[2.348060] (natnet_ros2) StderrLine: {'line': b'  1350K .......... .......... .......... .......... .......... 76% 79.2M 0s\n'}
+[2.349902] (natnet_ros2) StderrLine: {'line': b'  1400K .......... .......... .......... .......... .......... 79% 26.9M 0s\n'}
+[2.350008] (natnet_ros2) StderrLine: {'line': b'  1450K .......... .......... .......... .......... .......... 82%  571M 0s\n'}
+[2.351475] (natnet_ros2) StderrLine: {'line': b'  1500K .......... .......... .......... .......... .......... 85% 34.3M 0s\n'}
+[2.351530] (natnet_ros2) StderrLine: {'line': b'  1550K .......... .......... .......... .......... .......... 87%  736M 0s\n'}
+[2.352239] (natnet_ros2) StderrLine: {'line': b'  1600K .......... .......... .......... .......... .......... 90% 67.5M 0s\n'}
+[2.353164] (natnet_ros2) StderrLine: {'line': b'  1650K .......... .......... .......... .......... .......... 93% 51.8M 0s\n'}
+[2.353780] (natnet_ros2) StderrLine: {'line': b'  1700K .......... .......... .......... .......... .......... 96% 76.9M 0s\n'}
+[2.354784] (natnet_ros2) StderrLine: {'line': b'  1750K .......... .......... .......... .......... .......... 98% 48.9M 0s\n'}
+[2.354846] (natnet_ros2) StderrLine: {'line': b'  1800K .......... ..........                                 100%  634M=0.1s\n'}
+[2.354873] (natnet_ros2) StderrLine: {'line': b'\n'}
+[2.354899] (natnet_ros2) StderrLine: {'line': b'2026-06-30 11:48:02 (18.7 MB/s) - \xe2\x80\x98NatNetSDK.tar\xe2\x80\x99 saved [1863680/1863680]\n'}
+[2.354924] (natnet_ros2) StderrLine: {'line': b'\n'}
+[2.364421] (natnet_ros2) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[2.364530] (natnet_ros2) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[2.364560] (natnet_ros2) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[2.364585] (natnet_ros2) StderrLine: {'line': b'\n'}
+[2.364609] (natnet_ros2) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[2.364638] (natnet_ros2) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[2.364661] (natnet_ros2) StderrLine: {'line': b'\n'}
+[2.364684] (natnet_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.364705] (natnet_ros2) StderrLine: {'line': b'  CMakeLists.txt:80 (rosidl_target_interfaces)\n'}
+[2.364727] (natnet_ros2) StderrLine: {'line': b'\n'}
+[2.364749] (natnet_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[2.367402] (natnet_ros2) StdoutLine: {'line': b'-- Found ament_cmake_copyright: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)\n'}
+[2.369371] (natnet_ros2) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)\n'}
+[2.371331] (natnet_ros2) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)\n'}
+[2.373010] (natnet_ros2) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)\n'}
+[2.374735] (natnet_ros2) StdoutLine: {'line': b'-- Found ament_cmake_xmllint: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)\n'}
+[2.376605] (natnet_ros2) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)\n'}
+[2.378745] (natnet_ros2) StderrLine: {'line': b'\x1b[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/natnet_ros2` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.\x1b[0m\n'}
+[2.384027] (natnet_ros2) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[2.405276] (-) TimerEvent: {}
+[2.413938] (natnet_ros2) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.420790] (natnet_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/theo/drift/ros2_ws/build/natnet_ros2\n'}
+[2.428124] (natnet_ros2) CommandEnded: {'returncode': 0}
+[2.428302] (natnet_ros2) JobProgress: {'identifier': 'natnet_ros2', 'progress': 'build'}
+[2.428313] (natnet_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/theo/drift/ros2_ws/build/natnet_ros2', '--', '-j4', '-l4'], 'cwd': '/home/theo/drift/ros2_ws/build/natnet_ros2', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'theo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/theo', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/theo/drift/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.113.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1453', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1673', 'BUNDLED_DEBUGPY_PATH': '/home/theo/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2761', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'theo', 'JOURNAL_STREAM': '9:16491', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'CLAUDE_CODE_SSE_PORT': '54882', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'theo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/theo/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/theo/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/theo/.local/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/theo/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/vm:@/tmp/.ICE-unix/1632,unix/vm:/tmp/.ICE-unix/1632', 'INVOCATION_ID': '2237ee31ecf641569052ece2954123a0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/theo/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-cd575580f77f1a85.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/theo/.config/Code/User/workspaceStorage/92432dadc568e24e6971378003754af0/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OTE1R3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-03f186b3ad.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/theo/drift/ros2_ws/build/natnet_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.453243] (natnet_ros2) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[2.453631] (natnet_ros2) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/natnet_ros2_node.dir/src/natnet_ros2.cpp.o\x1b[0m\n'}
+[2.457273] (natnet_ros2) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_natnet_ros2_py\n'}
+[2.457344] (natnet_ros2) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_natnet_ros2\n'}
+[2.460491] (natnet_ros2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/natnet_ros2_node.dir/src/nn_filter.cpp.o\x1b[0m\n'}
+[2.505359] (-) TimerEvent: {}
+[2.545252] (natnet_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[2.546125] (natnet_ros2) StdoutLine: {'line': b'creating natnet_ros2.egg-info\n'}
+[2.546526] (natnet_ros2) StdoutLine: {'line': b'[  7%] Built target natnet_ros2__rosidl_generator_type_description\n'}
+[2.553151] (natnet_ros2) StdoutLine: {'line': b'writing natnet_ros2.egg-info/PKG-INFO\n'}
+[2.553249] (natnet_ros2) StdoutLine: {'line': b'writing dependency_links to natnet_ros2.egg-info/dependency_links.txt\n'}
+[2.553296] (natnet_ros2) StdoutLine: {'line': b'writing top-level names to natnet_ros2.egg-info/top_level.txt\n'}
+[2.553324] (natnet_ros2) StdoutLine: {'line': b"writing manifest file 'natnet_ros2.egg-info/SOURCES.txt'\n"}
+[2.574900] (natnet_ros2) StdoutLine: {'line': b"reading manifest file 'natnet_ros2.egg-info/SOURCES.txt'\n"}
+[2.575003] (natnet_ros2) StdoutLine: {'line': b"writing manifest file 'natnet_ros2.egg-info/SOURCES.txt'\n"}
+[2.589831] (natnet_ros2) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_natnet_ros2_egg\n'}
+[2.599536] (natnet_ros2) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.606118] (-) TimerEvent: {}
+[2.663890] (natnet_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[2.663982] (natnet_ros2) StdoutLine: {'line': b'creating natnet_ros2_py.egg-info\n'}
+[2.664007] (natnet_ros2) StdoutLine: {'line': b'writing natnet_ros2_py.egg-info/PKG-INFO\n'}
+[2.664029] (natnet_ros2) StdoutLine: {'line': b'writing dependency_links to natnet_ros2_py.egg-info/dependency_links.txt\n'}
+[2.664053] (natnet_ros2) StdoutLine: {'line': b'writing top-level names to natnet_ros2_py.egg-info/top_level.txt\n'}
+[2.664077] (natnet_ros2) StdoutLine: {'line': b"writing manifest file 'natnet_ros2_py.egg-info/SOURCES.txt'\n"}
+[2.678858] (natnet_ros2) StdoutLine: {'line': b"reading manifest file 'natnet_ros2_py.egg-info/SOURCES.txt'\n"}
+[2.679274] (natnet_ros2) StdoutLine: {'line': b"writing manifest file 'natnet_ros2_py.egg-info/SOURCES.txt'\n"}
+[2.686749] (natnet_ros2) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.693373] (natnet_ros2) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_natnet_ros2_py_egg\n'}
+[2.706209] (-) TimerEvent: {}
+[2.741284] (natnet_ros2) StdoutLine: {'line': b'[ 12%] Built target natnet_ros2__cpp\n'}
+[2.806317] (-) TimerEvent: {}
+[2.828281] (natnet_ros2) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/natnet_ros2__rosidl_generator_c.dir/rosidl_generator_c/natnet_ros2/srv/detail/marker_poses__description.c.o\x1b[0m\n'}
+[2.828402] (natnet_ros2) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/natnet_ros2__rosidl_generator_c.dir/rosidl_generator_c/natnet_ros2/srv/detail/marker_poses__type_support.c.o\x1b[0m\n'}
+[2.830015] (natnet_ros2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/natnet_ros2__rosidl_generator_c.dir/rosidl_generator_c/natnet_ros2/srv/detail/marker_poses__functions.c.o\x1b[0m\n'}
+[2.874631] (natnet_ros2) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library libnatnet_ros2__rosidl_generator_c.so\x1b[0m\n'}
+[2.892019] (natnet_ros2) StdoutLine: {'line': b'[ 23%] Built target natnet_ros2__rosidl_generator_c\n'}
+[2.895986] (natnet_ros2) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.896050] (natnet_ros2) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.898162] (natnet_ros2) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.906385] (-) TimerEvent: {}
+[3.000221] (natnet_ros2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/natnet_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/natnet_ros2/srv/marker_poses__type_support.cpp.o\x1b[0m\n'}
+[3.006461] (-) TimerEvent: {}
+[3.037402] (natnet_ros2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/natnet_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/natnet_ros2/srv/detail/marker_poses__type_support_c.cpp.o\x1b[0m\n'}
+[3.051924] (natnet_ros2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/natnet_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/natnet_ros2/srv/detail/dds_fastrtps/marker_poses__type_support.cpp.o\x1b[0m\n'}
+[3.107806] (-) TimerEvent: {}
+[3.195221] (natnet_ros2) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libnatnet_ros2__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.207894] (-) TimerEvent: {}
+[3.231111] (natnet_ros2) StdoutLine: {'line': b'[ 41%] Built target natnet_ros2__rosidl_typesupport_cpp\n'}
+[3.236444] (natnet_ros2) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.247221] (natnet_ros2) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libnatnet_ros2__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.274067] (natnet_ros2) StdoutLine: {'line': b'[ 46%] Built target natnet_ros2__rosidl_typesupport_fastrtps_c\n'}
+[3.279449] (natnet_ros2) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.307992] (-) TimerEvent: {}
+[3.352642] (natnet_ros2) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libnatnet_ros2__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.364632] (natnet_ros2) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/natnet_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/natnet_ros2/srv/detail/marker_poses__type_support.c.o\x1b[0m\n'}
+[3.389623] (natnet_ros2) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libnatnet_ros2__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.391037] (natnet_ros2) StdoutLine: {'line': b'[ 56%] Built target natnet_ros2__rosidl_typesupport_fastrtps_cpp\n'}
+[3.396523] (natnet_ros2) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.396639] (natnet_ros2) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/natnet_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/natnet_ros2/srv/marker_poses__type_support.cpp.o\x1b[0m\n'}
+[3.403939] (natnet_ros2) StdoutLine: {'line': b'[ 61%] Built target natnet_ros2__rosidl_typesupport_introspection_c\n'}
+[3.408076] (-) TimerEvent: {}
+[3.418353] (natnet_ros2) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libnatnet_ros2__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.441150] (natnet_ros2) StdoutLine: {'line': b'[ 64%] Built target natnet_ros2__rosidl_typesupport_c\n'}
+[3.508167] (-) TimerEvent: {}
+[3.514498] (natnet_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/natnet_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/natnet_ros2/srv/detail/marker_poses__type_support.cpp.o\x1b[0m\n'}
+[3.608289] (-) TimerEvent: {}
+[3.649770] (natnet_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/drift/ros2_ws/src/natnet_ros2/src/natnet_ros2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NatNetNode::\x1b[01;32m\x1b[Kget_node_params\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.649886] (natnet_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/drift/ros2_ws/src/natnet_ros2/src/natnet_ros2.cpp:71:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kconverting to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterDescriptor\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} from initializer list would use explicit constructor \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg::ParameterDescriptor_<ContainerAllocator>::\x1b[01;32m\x1b[KParameterDescriptor_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization) \x1b[35m\x1b[K[with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.649919] (natnet_ros2) StderrLine: {'line': b'   71 |         \x1b[01;35m\x1b[Kdeclare_parameter<std::vector<std::string>>("object_names", {})\x1b[m\x1b[K;\n'}
+[3.649964] (natnet_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.649985] (natnet_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theo/drift/ros2_ws/src/natnet_ros2/src/natnet_ros2.cpp:71:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin C++11 and above a default constructor can be explicit\n'}
+[3.693334] (natnet_ros2) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libnatnet_ros2__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.708398] (-) TimerEvent: {}
+[3.725671] (natnet_ros2) StdoutLine: {'line': b'[ 69%] Built target natnet_ros2__rosidl_typesupport_introspection_cpp\n'}
+[3.733846] (natnet_ros2) StdoutLine: {'line': b'[ 69%] Built target natnet_ros2\n'}
+[3.741649] (natnet_ros2) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.741917] (natnet_ros2) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/marker_poses_server.dir/src/marker_poses_server.cpp.o\x1b[0m\n'}
+[3.808495] (-) TimerEvent: {}
+[3.908877] (-) TimerEvent: {}
+[3.909778] (natnet_ros2) StdoutLine: {'line': b'[ 74%] Built target natnet_ros2__py\n'}
+[3.920665] (natnet_ros2) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/natnet_ros2__rosidl_generator_py.dir/rosidl_generator_py/natnet_ros2/srv/_marker_poses_s.c.o\x1b[0m\n'}
+[4.009082] (-) TimerEvent: {}
+[4.018420] (natnet_ros2) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking C shared library libnatnet_ros2__rosidl_generator_py.so\x1b[0m\n'}
+[4.044911] (natnet_ros2) StdoutLine: {'line': b'[ 79%] Built target natnet_ros2__rosidl_generator_py\n'}
+[4.061129] (natnet_ros2) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/natnet_ros2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.063300] (natnet_ros2) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/natnet_ros2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.109145] (-) TimerEvent: {}
+[4.111651] (natnet_ros2) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/natnet_ros2/natnet_ros2_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.111892] (natnet_ros2) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/natnet_ros2/natnet_ros2_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.130944] (natnet_ros2) StdoutLine: {'line': b'[ 89%] Built target natnet_ros2_s__rosidl_typesupport_fastrtps_c\n'}
+[4.132973] (natnet_ros2) StdoutLine: {'line': b'[ 89%] Built target natnet_ros2_s__rosidl_typesupport_introspection_c\n'}
+[4.139332] (natnet_ros2) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/natnet_ros2_s__rosidl_typesupport_c.dir/rosidl_generator_py/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.185681] (natnet_ros2) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/natnet_ros2/natnet_ros2_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.198587] (natnet_ros2) StdoutLine: {'line': b'[ 94%] Built target natnet_ros2_s__rosidl_typesupport_c\n'}
+[4.210127] (-) TimerEvent: {}
+[4.310843] (-) TimerEvent: {}
+[4.411312] (-) TimerEvent: {}
+[4.511830] (-) TimerEvent: {}
+[4.612268] (-) TimerEvent: {}
+[4.712783] (-) TimerEvent: {}
+[4.813330] (-) TimerEvent: {}
+[4.913936] (-) TimerEvent: {}
+[5.014418] (-) TimerEvent: {}
+[5.114700] (-) TimerEvent: {}
+[5.212973] (natnet_ros2) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable marker_poses_server\x1b[0m\n'}
+[5.214851] (-) TimerEvent: {}
+[5.315044] (-) TimerEvent: {}
+[5.363198] (natnet_ros2) StdoutLine: {'line': b'[ 97%] Built target marker_poses_server\n'}
+[5.415290] (-) TimerEvent: {}
+[5.516202] (-) TimerEvent: {}
+[5.554948] (natnet_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable natnet_ros2_node\x1b[0m\n'}
+[5.616454] (-) TimerEvent: {}
+[5.686840] (natnet_ros2) StdoutLine: {'line': b'[100%] Built target natnet_ros2_node\n'}
+[5.693303] (natnet_ros2) CommandEnded: {'returncode': 0}
+[5.693970] (natnet_ros2) JobProgress: {'identifier': 'natnet_ros2', 'progress': 'install'}
+[5.699384] (natnet_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/theo/drift/ros2_ws/build/natnet_ros2'], 'cwd': '/home/theo/drift/ros2_ws/build/natnet_ros2', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'theo', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/theo', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/theo/drift/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.113.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1453', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1673', 'BUNDLED_DEBUGPY_PATH': '/home/theo/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2761', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'theo', 'JOURNAL_STREAM': '9:16491', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'CLAUDE_CODE_SSE_PORT': '54882', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'theo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/theo/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/theo/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/theo/.local/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/theo/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/vm:@/tmp/.ICE-unix/1632,unix/vm:/tmp/.ICE-unix/1632', 'INVOCATION_ID': '2237ee31ecf641569052ece2954123a0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/theo/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-cd575580f77f1a85.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/theo/.config/Code/User/workspaceStorage/92432dadc568e24e6971378003754af0/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OTE1R3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-03f186b3ad.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/theo/drift/ros2_ws/build/natnet_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.703565] (natnet_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.704081] (natnet_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.704226] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/ament_index/resource_index/rosidl_interfaces/natnet_ros2\n'}
+[5.707665] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/srv/MarkerPoses.json\n'}
+[5.711181] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.714334] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__functions.h\n'}
+[5.716555] (-) TimerEvent: {}
+[5.717515] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__struct.h\n'}
+[5.720361] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__type_support.h\n'}
+[5.723522] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/marker_poses.h\n'}
+[5.728125] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/environment/library_path.sh\n'}
+[5.731440] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/environment/library_path.dsv\n'}
+[5.735019] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.737690] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__rosidl_typesupport_fastrtps_c.h\n'}
+[5.740599] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.743582] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__builder.hpp\n'}
+[5.746409] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__struct.hpp\n'}
+[5.749218] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__traits.hpp\n'}
+[5.752818] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__type_support.hpp\n'}
+[5.756965] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/marker_poses.hpp\n'}
+[5.760192] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.762993] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.765879] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.768793] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__rosidl_typesupport_introspection_c.h\n'}
+[5.771619] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.774548] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/environment/pythonpath.sh\n'}
+[5.777406] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/environment/pythonpath.dsv\n'}
+[5.780585] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2-1.0.0-py3.12.egg-info/PKG-INFO\n'}
+[5.784284] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2-1.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[5.789581] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2-1.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[5.794733] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2-1.0.0-py3.12.egg-info/top_level.txt\n'}
+[5.799411] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/__init__.py\n'}
+[5.805010] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_c.c\n'}
+[5.810651] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.815486] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.816745] (-) TimerEvent: {}
+[5.820236] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_c.so\n'}
+[5.826215] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.829694] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_introspection_c.so\n'}
+[5.835873] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv/__init__.py\n'}
+[5.838723] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv/_marker_poses.py\n'}
+[5.843124] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv/_marker_poses_s.c\n'}
+[5.848514] (natnet_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.848606] (natnet_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_introspection_c.so\n'}
+[5.848637] (natnet_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_c.so\n'}
+[5.848663] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/srv/MarkerPoses.idl\n'}
+[5.852933] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/srv/MarkerPoses.srv\n'}
+[5.856894] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2.hpp\n'}
+[5.860173] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/nn_filter.hpp\n'}
+[5.864312] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/object_data.hpp\n'}
+[5.868413] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/launch/gui_natnet_ros2.launch.py\n'}
+[5.872693] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/launch/natnet_ros2.launch.py\n'}
+[5.877053] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/config/conf_autogen.yaml\n'}
+[5.880535] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/config/initiate.yaml\n'}
+[5.883836] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/ui/helper.ui\n'}
+[5.887070] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/ui/logo.png\n'}
+[5.890911] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/ui/ros-logo.png\n'}
+[5.894766] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/natnet_ros2/natnet_ros2_node\n'}
+[5.898196] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/bin/natnet_ros2_node\n'}
+[5.901538] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/natnet_ros2/marker_poses_server\n'}
+[5.905093] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/bin/marker_poses_server\n'}
+[5.909213] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py-1.0.0-py3.12.egg-info/PKG-INFO\n'}
+[5.912900] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py-1.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[5.915831] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py-1.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[5.916896] (-) TimerEvent: {}
+[5.919443] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py-1.0.0-py3.12.egg-info/top_level.txt\n'}
+[5.922872] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py/__init__.py\n'}
+[5.926524] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py/node_module.py\n'}
+[5.932109] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/natnet_ros2/helper_node_r2.py\n'}
+[5.934397] (natnet_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/natnet_ros2.hpp\n'}
+[5.934509] (natnet_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/nn_filter.hpp\n'}
+[5.934602] (natnet_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/theo/drift/ros2_ws/install/natnet_ros2/include/natnet_ros2/object_data.hpp\n'}
+[5.934722] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/ament_index/resource_index/package_run_dependencies/natnet_ros2\n'}
+[5.939111] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/ament_index/resource_index/parent_prefix_path/natnet_ros2\n'}
+[5.945130] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/environment/ament_prefix_path.sh\n'}
+[5.947869] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/environment/ament_prefix_path.dsv\n'}
+[5.951718] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/environment/path.sh\n'}
+[5.955358] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/environment/path.dsv\n'}
+[5.959528] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/local_setup.bash\n'}
+[5.962904] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/local_setup.sh\n'}
+[5.966406] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/local_setup.zsh\n'}
+[5.970728] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/local_setup.dsv\n'}
+[5.974319] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/package.dsv\n'}
+[5.978512] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/ament_index/resource_index/packages/natnet_ros2\n'}
+[5.981915] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/rosidl_cmake-extras.cmake\n'}
+[5.985907] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.989208] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.992496] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.997274] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.001660] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.005614] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.009687] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2Config.cmake\n'}
+[6.013364] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2Config-version.cmake\n'}
+[6.017000] (-) TimerEvent: {}
+[6.017145] (natnet_ros2) StdoutLine: {'line': b'-- Symlinking: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/package.xml\n'}
+[6.021258] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_generator_c.so\n'}
+[6.021417] (natnet_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_generator_c.so" to ""\n'}
+[6.021499] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_fastrtps_c.so\n'}
+[6.021597] (natnet_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.021649] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.021801] (natnet_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.021833] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_introspection_c.so\n'}
+[6.021976] (natnet_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.022039] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_c.so\n'}
+[6.022143] (natnet_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_c.so" to ""\n'}
+[6.022253] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_introspection_cpp.so\n'}
+[6.022506] (natnet_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.022579] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_cpp.so\n'}
+[6.024128] (natnet_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_cpp.so" to ""\n'}
+[6.050335] (natnet_ros2) StdoutLine: {'line': b"Listing '/home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2'...\n"}
+[6.050449] (natnet_ros2) StdoutLine: {'line': b"Compiling '/home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/__init__.py'...\n"}
+[6.050482] (natnet_ros2) StdoutLine: {'line': b"Listing '/home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv'...\n"}
+[6.050507] (natnet_ros2) StdoutLine: {'line': b"Compiling '/home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv/__init__.py'...\n"}
+[6.050531] (natnet_ros2) StdoutLine: {'line': b"Compiling '/home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv/_marker_poses.py'...\n"}
+[6.053807] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_generator_py.so\n'}
+[6.053971] (natnet_ros2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/install/natnet_ros2/lib/libnatnet_ros2__rosidl_generator_py.so" to ""\n'}
+[6.069097] (natnet_ros2) StdoutLine: {'line': b"Listing '/home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py'...\n"}
+[6.069174] (natnet_ros2) StdoutLine: {'line': b"Compiling '/home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py/__init__.py'...\n"}
+[6.069200] (natnet_ros2) StdoutLine: {'line': b"Compiling '/home/theo/drift/ros2_ws/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py/node_module.py'...\n"}
+[6.071731] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_generator_cExport.cmake\n'}
+[6.071826] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.071893] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.071921] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.071980] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_generator_cppExport.cmake\n'}
+[6.072052] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.072103] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.072150] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.072193] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.072215] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_cExport.cmake\n'}
+[6.072272] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.072297] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.072354] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.072383] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_cppExport.cmake\n'}
+[6.072445] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.072492] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_generator_pyExport.cmake\n'}
+[6.072516] (natnet_ros2) StdoutLine: {'line': b'-- Installing: /home/theo/drift/ros2_ws/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.073564] (natnet_ros2) CommandEnded: {'returncode': 0}
+[6.083810] (natnet_ros2) JobEnded: {'identifier': 'natnet_ros2', 'rc': 0}
+[6.084234] (-) EventReactorShutdown: {}

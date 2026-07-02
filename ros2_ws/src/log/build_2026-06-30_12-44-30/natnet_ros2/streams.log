@@ -1,0 +1,325 @@
+[0.005s] Invoking command in '/home/theo/drift/ros2_ws/src/build/natnet_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/theo/drift/ros2_ws/src/natnet_ros2 -DCMAKE_INSTALL_PREFIX=/home/theo/drift/ros2_ws/src/install/natnet_ros2
+[0.099s] -- The C compiler identification is GNU 13.3.0
+[0.165s] -- The CXX compiler identification is GNU 13.3.0
+[0.173s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.216s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.216s] -- Detecting C compile features
+[0.216s] -- Detecting C compile features - done
+[0.225s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.272s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.357s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.416s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.446s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.454s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.464s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.475s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.517s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.520s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.568s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.576s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.586s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.636s] -- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.654s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[0.678s] -- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.756s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.768s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.777s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.780s] -- Found ament_cmake_auto: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.782s] -- Found rclpy: 7.1.9 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.093s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.503s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.671s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.743s] -- Found PythonExtra: /usr/bin/python3  
+[1.968s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.993s] SDK already installed.
+[1.995s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.995s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.995s]   rosidl_target_interfaces().  i.e:
+[1.995s] 
+[1.995s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[1.995s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[1.995s] 
+[1.995s] Call Stack (most recent call first):
+[1.995s]   CMakeLists.txt:80 (rosidl_target_interfaces)
+[1.995s] 
+[1.996s] [0m
+[1.997s] -- Found ament_cmake_copyright: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)
+[1.999s] -- Found ament_cmake_cppcheck: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[2.000s] -- Found ament_cmake_cpplint: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[2.002s] -- Found ament_cmake_lint_cmake: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)
+[2.004s] -- Found ament_cmake_xmllint: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)
+[2.005s] -- Found ament_cmake_uncrustify: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[2.007s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/natnet_ros2` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[2.011s] -- Configuring done (2.0s)
+[2.037s] -- Generating done (0.0s)
+[2.044s] -- Build files have been written to: /home/theo/drift/ros2_ws/src/build/natnet_ros2
+[2.050s] Invoked command in '/home/theo/drift/ros2_ws/src/build/natnet_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/theo/drift/ros2_ws/src/natnet_ros2 -DCMAKE_INSTALL_PREFIX=/home/theo/drift/ros2_ws/src/install/natnet_ros2
+[2.051s] Invoking command in '/home/theo/drift/ros2_ws/src/build/natnet_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/theo/drift/ros2_ws/src/build/natnet_ros2 -- -j4 -l4
+[2.073s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.073s] [  5%] [32mBuilding CXX object CMakeFiles/natnet_ros2_node.dir/src/natnet_ros2.cpp.o[0m
+[2.074s] [  5%] Built target ament_cmake_python_copy_natnet_ros2_py
+[2.075s] [  5%] Built target ament_cmake_python_copy_natnet_ros2
+[2.078s] [  7%] [32mBuilding CXX object CMakeFiles/natnet_ros2_node.dir/src/nn_filter.cpp.o[0m
+[2.157s] [  7%] Built target natnet_ros2__rosidl_generator_type_description
+[2.159s] running egg_info
+[2.159s] creating natnet_ros2_py.egg-info
+[2.168s] writing natnet_ros2_py.egg-info/PKG-INFO
+[2.168s] writing dependency_links to natnet_ros2_py.egg-info/dependency_links.txt
+[2.168s] writing top-level names to natnet_ros2_py.egg-info/top_level.txt
+[2.168s] writing manifest file 'natnet_ros2_py.egg-info/SOURCES.txt'
+[2.168s] [ 10%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.192s] reading manifest file 'natnet_ros2_py.egg-info/SOURCES.txt'
+[2.193s] writing manifest file 'natnet_ros2_py.egg-info/SOURCES.txt'
+[2.214s] [ 10%] Built target ament_cmake_python_build_natnet_ros2_py_egg
+[2.220s] [ 12%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.332s] [ 12%] Built target natnet_ros2__cpp
+[2.389s] [ 15%] [32mBuilding C object CMakeFiles/natnet_ros2__rosidl_generator_c.dir/rosidl_generator_c/natnet_ros2/srv/detail/marker_poses__functions.c.o[0m
+[2.389s] [ 17%] [32mBuilding C object CMakeFiles/natnet_ros2__rosidl_generator_c.dir/rosidl_generator_c/natnet_ros2/srv/detail/marker_poses__description.c.o[0m
+[2.413s] [ 20%] [32mBuilding C object CMakeFiles/natnet_ros2__rosidl_generator_c.dir/rosidl_generator_c/natnet_ros2/srv/detail/marker_poses__type_support.c.o[0m
+[2.415s] running egg_info
+[2.416s] creating natnet_ros2.egg-info
+[2.423s] writing natnet_ros2.egg-info/PKG-INFO
+[2.423s] writing dependency_links to natnet_ros2.egg-info/dependency_links.txt
+[2.423s] writing top-level names to natnet_ros2.egg-info/top_level.txt
+[2.423s] writing manifest file 'natnet_ros2.egg-info/SOURCES.txt'
+[2.436s] [ 23%] [32m[1mLinking C shared library libnatnet_ros2__rosidl_generator_c.so[0m
+[2.441s] reading manifest file 'natnet_ros2.egg-info/SOURCES.txt'
+[2.444s] writing manifest file 'natnet_ros2.egg-info/SOURCES.txt'
+[2.456s] [ 23%] Built target ament_cmake_python_build_natnet_ros2_egg
+[2.459s] [ 23%] Built target natnet_ros2__rosidl_generator_c
+[2.465s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.465s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.465s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.582s] [ 33%] [32mBuilding CXX object CMakeFiles/natnet_ros2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/natnet_ros2/srv/marker_poses__type_support.cpp.o[0m
+[2.608s] [ 35%] [32mBuilding CXX object CMakeFiles/natnet_ros2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/natnet_ros2/srv/detail/dds_fastrtps/marker_poses__type_support.cpp.o[0m
+[2.626s] [ 38%] [32mBuilding CXX object CMakeFiles/natnet_ros2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/natnet_ros2/srv/detail/marker_poses__type_support_c.cpp.o[0m
+[2.811s] [ 41%] [32m[1mLinking CXX shared library libnatnet_ros2__rosidl_typesupport_cpp.so[0m
+[2.886s] [ 41%] Built target natnet_ros2__rosidl_typesupport_cpp
+[2.892s] [ 43%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.927s] [ 46%] [32m[1mLinking CXX shared library libnatnet_ros2__rosidl_typesupport_fastrtps_c.so[0m
+[2.949s] [ 48%] [32m[1mLinking CXX shared library libnatnet_ros2__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.958s] [ 48%] Built target natnet_ros2__rosidl_typesupport_fastrtps_c
+[2.966s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.990s] [ 51%] Built target natnet_ros2__rosidl_typesupport_fastrtps_cpp
+[2.994s] [ 53%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.027s] [ 56%] [32mBuilding C object CMakeFiles/natnet_ros2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/natnet_ros2/srv/detail/marker_poses__type_support.c.o[0m
+[3.053s] [ 58%] [32m[1mLinking C shared library libnatnet_ros2__rosidl_typesupport_introspection_c.so[0m
+[3.068s] [ 61%] [32mBuilding CXX object CMakeFiles/natnet_ros2__rosidl_typesupport_c.dir/rosidl_typesupport_c/natnet_ros2/srv/marker_poses__type_support.cpp.o[0m
+[3.068s] [ 61%] Built target natnet_ros2__rosidl_typesupport_introspection_c
+[3.087s] [ 64%] [32m[1mLinking CXX shared library libnatnet_ros2__rosidl_typesupport_c.so[0m
+[3.106s] [ 64%] Built target natnet_ros2__rosidl_typesupport_c
+[3.119s] [ 66%] [32mBuilding CXX object CMakeFiles/natnet_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/natnet_ros2/srv/detail/marker_poses__type_support.cpp.o[0m
+[3.300s] [ 69%] [32m[1mLinking CXX shared library libnatnet_ros2__rosidl_typesupport_introspection_cpp.so[0m
+[3.332s] [ 69%] Built target natnet_ros2__rosidl_typesupport_introspection_cpp
+[3.344s] [ 69%] Built target natnet_ros2
+[3.349s] [01m[K/home/theo/drift/ros2_ws/src/natnet_ros2/src/natnet_ros2.cpp:[m[K In member function ‘[01m[Kvoid NatNetNode::[01;32m[Kget_node_params[m[K()[m[K’:
+[3.349s] [01m[K/home/theo/drift/ros2_ws/src/natnet_ros2/src/natnet_ros2.cpp:71:52:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Krcl_interfaces::msg::ParameterDescriptor_<ContainerAllocator>::[01;32m[KParameterDescriptor_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[3.349s]    71 |         [01;35m[Kdeclare_parameter<std::vector<std::string>>("object_names", {})[m[K;
+[3.349s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[3.349s] [01m[K/home/theo/drift/ros2_ws/src/natnet_ros2/src/natnet_ros2.cpp:71:52:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[3.353s] [ 71%] [32mBuilding CXX object CMakeFiles/marker_poses_server.dir/src/marker_poses_server.cpp.o[0m
+[3.354s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.529s] [ 74%] Built target natnet_ros2__py
+[3.537s] [ 76%] [32mBuilding C object CMakeFiles/natnet_ros2__rosidl_generator_py.dir/rosidl_generator_py/natnet_ros2/srv/_marker_poses_s.c.o[0m
+[3.639s] [ 79%] [32m[1mLinking C shared library libnatnet_ros2__rosidl_generator_py.so[0m
+[3.663s] [ 79%] Built target natnet_ros2__rosidl_generator_py
+[3.674s] [ 82%] [32mBuilding C object CMakeFiles/natnet_ros2_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.678s] [ 84%] [32mBuilding C object CMakeFiles/natnet_ros2_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.721s] [ 87%] [32m[1mLinking C shared module rosidl_generator_py/natnet_ros2/natnet_ros2_s__rosidl_typesupport_introspection_c.so[0m
+[3.733s] [ 89%] [32m[1mLinking C shared module rosidl_generator_py/natnet_ros2/natnet_ros2_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.748s] [ 89%] Built target natnet_ros2_s__rosidl_typesupport_introspection_c
+[3.752s] [ 89%] Built target natnet_ros2_s__rosidl_typesupport_fastrtps_c
+[3.759s] [ 92%] [32mBuilding C object CMakeFiles/natnet_ros2_s__rosidl_typesupport_c.dir/rosidl_generator_py/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_c.c.o[0m
+[3.809s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/natnet_ros2/natnet_ros2_s__rosidl_typesupport_c.so[0m
+[3.827s] [ 94%] Built target natnet_ros2_s__rosidl_typesupport_c
+[4.911s] [ 97%] [32m[1mLinking CXX executable marker_poses_server[0m
+[5.048s] [ 97%] Built target marker_poses_server
+[5.337s] [100%] [32m[1mLinking CXX executable natnet_ros2_node[0m
+[5.472s] [100%] Built target natnet_ros2_node
+[5.478s] Invoked command in '/home/theo/drift/ros2_ws/src/build/natnet_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/theo/drift/ros2_ws/src/build/natnet_ros2 -- -j4 -l4
+[5.483s] Invoking command in '/home/theo/drift/ros2_ws/src/build/natnet_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/theo/drift/ros2_ws/src/build/natnet_ros2
+[5.487s] -- Install configuration: ""
+[5.487s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/ament_index/resource_index/rosidl_interfaces/natnet_ros2
+[5.487s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/srv/MarkerPoses.json
+[5.487s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2
+[5.487s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg
+[5.487s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg/rosidl_generator_c__visibility_control.h
+[5.487s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv
+[5.487s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/marker_poses.h
+[5.487s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail
+[5.487s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__struct.h
+[5.487s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__description.c
+[5.487s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__functions.c
+[5.487s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__type_support.c
+[5.487s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__functions.h
+[5.487s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__type_support.h
+[5.487s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/library_path.sh
+[5.488s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/library_path.dsv
+[5.488s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_generator_c.so
+[5.488s] -- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_generator_c.so" to ""
+[5.488s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2
+[5.488s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg
+[5.488s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.488s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv
+[5.488s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail
+[5.488s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__rosidl_typesupport_fastrtps_c.h
+[5.488s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_fastrtps_c.so
+[5.488s] -- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_fastrtps_c.so" to ""
+[5.488s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2
+[5.488s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg
+[5.488s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.488s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv
+[5.488s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail
+[5.488s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__struct.hpp
+[5.488s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__type_support.hpp
+[5.488s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__traits.hpp
+[5.488s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__builder.hpp
+[5.489s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/marker_poses.hpp
+[5.489s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2
+[5.489s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg
+[5.489s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.489s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv
+[5.489s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail
+[5.489s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__rosidl_typesupport_fastrtps_cpp.hpp
+[5.489s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/dds_fastrtps
+[5.489s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_fastrtps_cpp.so
+[5.489s] -- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.489s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2
+[5.489s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg
+[5.489s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.489s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv
+[5.489s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail
+[5.489s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__type_support.c
+[5.489s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__rosidl_typesupport_introspection_c.h
+[5.489s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_introspection_c.so
+[5.489s] -- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_introspection_c.so" to ""
+[5.489s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_c.so
+[5.489s] -- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_c.so" to ""
+[5.489s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2
+[5.489s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv
+[5.490s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__type_support.cpp
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2/srv/detail/marker_poses__rosidl_typesupport_introspection_cpp.hpp
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_introspection_cpp.so
+[5.490s] -- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_introspection_cpp.so" to ""
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_cpp.so
+[5.490s] -- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_typesupport_cpp.so" to ""
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/pythonpath.sh
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/pythonpath.dsv
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2-1.0.0-py3.12.egg-info
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2-1.0.0-py3.12.egg-info/dependency_links.txt
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2-1.0.0-py3.12.egg-info/SOURCES.txt
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2-1.0.0-py3.12.egg-info/top_level.txt
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2-1.0.0-py3.12.egg-info/PKG-INFO
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_introspection_c.so
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/__init__.py
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv/__init__.py
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv/_marker_poses_s.c
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv/_marker_poses.py
+[5.490s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_c.so
+[5.491s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_c.c
+[5.491s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_introspection_c.c
+[5.491s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/_natnet_ros2_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.491s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_fastrtps_c.so
+[5.518s] Listing '/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2'...
+[5.518s] Compiling '/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/__init__.py'...
+[5.518s] Listing '/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv'...
+[5.518s] Compiling '/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv/__init__.py'...
+[5.518s] Compiling '/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/srv/_marker_poses.py'...
+[5.520s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_fastrtps_c.so
+[5.520s] -- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.521s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_introspection_c.so
+[5.521s] -- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_introspection_c.so" to ""
+[5.521s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_c.so
+[5.521s] -- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2/natnet_ros2_s__rosidl_typesupport_c.so" to ""
+[5.521s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_generator_py.so
+[5.521s] -- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/libnatnet_ros2__rosidl_generator_py.so" to ""
+[5.521s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/srv/MarkerPoses.idl
+[5.521s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/srv/MarkerPoses.srv
+[5.521s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2
+[5.521s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2.hpp
+[5.521s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/object_data.hpp
+[5.522s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/nn_filter.hpp
+[5.522s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/launch
+[5.522s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/launch/gui_natnet_ros2.launch.py
+[5.522s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/launch/natnet_ros2.launch.py
+[5.522s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/config
+[5.522s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/config/initiate.yaml
+[5.522s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/config/conf_autogen.yaml
+[5.522s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/ui
+[5.523s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/ui/logo.png
+[5.523s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/ui/helper.ui
+[5.523s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/ui/ros-logo.png
+[5.523s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/natnet_ros2/natnet_ros2_node
+[5.524s] -- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/natnet_ros2/natnet_ros2_node" to ""
+[5.524s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/bin/natnet_ros2_node
+[5.525s] -- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/src/install/natnet_ros2/bin/natnet_ros2_node" to ""
+[5.525s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/natnet_ros2/marker_poses_server
+[5.525s] -- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/natnet_ros2/marker_poses_server" to ""
+[5.525s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/bin/marker_poses_server
+[5.526s] -- Set non-toolchain portion of runtime path of "/home/theo/drift/ros2_ws/src/install/natnet_ros2/bin/marker_poses_server" to ""
+[5.526s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py-1.0.0-py3.12.egg-info
+[5.526s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py-1.0.0-py3.12.egg-info/dependency_links.txt
+[5.526s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py-1.0.0-py3.12.egg-info/SOURCES.txt
+[5.526s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py-1.0.0-py3.12.egg-info/top_level.txt
+[5.526s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py-1.0.0-py3.12.egg-info/PKG-INFO
+[5.526s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py
+[5.526s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py/__init__.py
+[5.526s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py/node_module.py
+[5.543s] Listing '/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py'...
+[5.543s] Compiling '/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py/__init__.py'...
+[5.543s] Compiling '/home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/python3.12/site-packages/natnet_ros2_py/node_module.py'...
+[5.545s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/lib/natnet_ros2/helper_node_r2.py
+[5.545s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include
+[5.546s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2
+[5.546s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/natnet_ros2.hpp
+[5.546s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/object_data.hpp
+[5.546s] -- Up-to-date: /home/theo/drift/ros2_ws/src/install/natnet_ros2/include/natnet_ros2/nn_filter.hpp
+[5.546s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/ament_index/resource_index/package_run_dependencies/natnet_ros2
+[5.546s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/ament_index/resource_index/parent_prefix_path/natnet_ros2
+[5.546s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/ament_prefix_path.sh
+[5.546s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/ament_prefix_path.dsv
+[5.546s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/path.sh
+[5.546s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/environment/path.dsv
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/local_setup.bash
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/local_setup.sh
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/local_setup.zsh
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/local_setup.dsv
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/package.dsv
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/ament_index/resource_index/packages/natnet_ros2
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_generator_cExport.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_generator_cExport-noconfig.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_typesupport_fastrtps_cExport.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_generator_cppExport.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_introspection_cExport.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_cExport.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_cExport-noconfig.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_introspection_cppExport.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_cppExport.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2__rosidl_typesupport_cppExport-noconfig.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_generator_pyExport.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/export_natnet_ros2__rosidl_generator_pyExport-noconfig.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/rosidl_cmake-extras.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/ament_cmake_export_libraries-extras.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/ament_cmake_export_targets-extras.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2Config.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/cmake/natnet_ros2Config-version.cmake
+[5.547s] -- Installing: /home/theo/drift/ros2_ws/src/install/natnet_ros2/share/natnet_ros2/package.xml
+[5.549s] Invoked command in '/home/theo/drift/ros2_ws/src/build/natnet_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/theo/drift/ros2_ws/src/build/natnet_ros2

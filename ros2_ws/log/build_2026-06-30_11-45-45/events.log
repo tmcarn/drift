@@ -1,0 +1,64 @@
+[0.000000] (-) TimerEvent: {}
+[0.000403] (-) JobUnselected: {'identifier': 'fri_client_sdk'}
+[0.000427] (-) JobUnselected: {'identifier': 'iiwa14_moveit_config'}
+[0.000438] (-) JobUnselected: {'identifier': 'iiwa7_moveit_config'}
+[0.000444] (-) JobUnselected: {'identifier': 'lbr_bringup'}
+[0.000451] (-) JobUnselected: {'identifier': 'lbr_demos_advanced_cpp'}
+[0.000495] (-) JobUnselected: {'identifier': 'lbr_demos_advanced_py'}
+[0.000508] (-) JobUnselected: {'identifier': 'lbr_demos_cpp'}
+[0.000512] (-) JobUnselected: {'identifier': 'lbr_demos_py'}
+[0.000520] (-) JobUnselected: {'identifier': 'lbr_dual_arm'}
+[0.000526] (-) JobUnselected: {'identifier': 'lbr_dual_arm_moveit_config'}
+[0.000535] (-) JobUnselected: {'identifier': 'lbr_fri_idl'}
+[0.000540] (-) JobUnselected: {'identifier': 'lbr_fri_ros2'}
+[0.000548] (-) JobUnselected: {'identifier': 'lbr_fri_ros2_stack'}
+[0.000552] (-) JobUnselected: {'identifier': 'lbr_iiwa14_r820_description'}
+[0.000573] (-) JobUnselected: {'identifier': 'lbr_iiwa7_r800_description'}
+[0.000581] (-) JobUnselected: {'identifier': 'lbr_med14_r820_description'}
+[0.000671] (-) JobUnselected: {'identifier': 'lbr_med7_r800_description'}
+[0.000683] (-) JobUnselected: {'identifier': 'lbr_moveit'}
+[0.000689] (-) JobUnselected: {'identifier': 'lbr_moveit_cpp'}
+[0.000700] (-) JobUnselected: {'identifier': 'lbr_ros2_control'}
+[0.000709] (-) JobUnselected: {'identifier': 'med14_moveit_config'}
+[0.000717] (-) JobUnselected: {'identifier': 'med7_moveit_config'}
+[0.000723] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000730] (-) JobUnselected: {'identifier': 'optitrack_ros2'}
+[0.000735] (natnet_ros2) JobQueued: {'identifier': 'natnet_ros2', 'dependencies': OrderedDict()}
+[0.000747] (natnet_ros2) JobStarted: {'identifier': 'natnet_ros2'}
+[0.002818] (natnet_ros2) JobProgress: {'identifier': 'natnet_ros2', 'progress': 'cmake'}
+[0.003414] (natnet_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/theo/drift/ros2_ws/src/natnet_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/theo/drift/ros2_ws/install/natnet_ros2'], 'cwd': '/home/theo/drift/ros2_ws/build/natnet_ros2', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'theo', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/theo', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/theo/drift/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.113.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](roskuka) \\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1453', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1673', 'BUNDLED_DEBUGPY_PATH': '/home/theo/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2761', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'theo', 'JOURNAL_STREAM': '9:16491', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'CLAUDE_CODE_SSE_PORT': '54882', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'theo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/home/theo/roskuka/bin:/home/theo/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/theo/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/theo/.local/bin:/home/theo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/theo/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/vm:@/tmp/.ICE-unix/1632,unix/vm:/tmp/.ICE-unix/1632', 'INVOCATION_ID': '2237ee31ecf641569052ece2954123a0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/theo/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-cd575580f77f1a85.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/theo/.config/Code/User/workspaceStorage/92432dadc568e24e6971378003754af0/ms-python.python/pythonrc.py', 'VIRTUAL_ENV_PROMPT': '(roskuka)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OTE1R3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-03f186b3ad.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VIRTUAL_ENV': '/home/theo/roskuka', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/theo/drift/ros2_ws/build/natnet_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA='}), 'shell': False}
+[0.028250] (natnet_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.052813] (natnet_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.058588] (natnet_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.092858] (natnet_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.101344] (-) TimerEvent: {}
+[0.103419] (natnet_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.103511] (natnet_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.103703] (natnet_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.107386] (natnet_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.177402] (natnet_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.179826] (natnet_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.179946] (natnet_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.180158] (natnet_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.183840] (natnet_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.183958] (natnet_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.183990] (natnet_ros2) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.184014] (natnet_ros2) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.184034] (natnet_ros2) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.184053] (natnet_ros2) StderrLine: {'line': b'\n'}
+[0.184072] (natnet_ros2) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.184092] (natnet_ros2) StderrLine: {'line': b'  any of the following names:\n'}
+[0.184111] (natnet_ros2) StderrLine: {'line': b'\n'}
+[0.184130] (natnet_ros2) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.184148] (natnet_ros2) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.184169] (natnet_ros2) StderrLine: {'line': b'\n'}
+[0.184186] (natnet_ros2) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.184204] (natnet_ros2) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.184222] (natnet_ros2) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.184325] (natnet_ros2) StderrLine: {'line': b'  has been installed.\n'}
+[0.184357] (natnet_ros2) StderrLine: {'line': b'\n'}
+[0.184378] (natnet_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.186639] (natnet_ros2) CommandEnded: {'returncode': 1}
+[0.195529] (natnet_ros2) JobEnded: {'identifier': 'natnet_ros2', 'rc': 1}
+[0.201417] (-) TimerEvent: {}
+[0.206262] (-) EventReactorShutdown: {}

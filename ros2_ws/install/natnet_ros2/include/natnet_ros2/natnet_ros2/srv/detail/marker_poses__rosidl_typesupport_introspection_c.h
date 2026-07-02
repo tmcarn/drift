@@ -1,0 +1,1 @@
+/home/theo/drift/ros2_ws/build/natnet_ros2/rosidl_typesupport_introspection_c/natnet_ros2/srv/detail/marker_poses__rosidl_typesupport_introspection_c.h

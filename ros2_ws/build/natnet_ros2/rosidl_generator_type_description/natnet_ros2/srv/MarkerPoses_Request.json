@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "natnet_ros2/srv/MarkerPoses_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "natnet_ros2/srv/MarkerPoses_Request",
+      "hash_string": "RIHS01_77222e8fe66b6d76fd46077b2bca45ad501a38c31b6144498b2a6fe9def8ab4e"
+    }
+  ]
+}

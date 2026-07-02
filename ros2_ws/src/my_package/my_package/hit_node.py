@@ -33,7 +33,7 @@ import rclpy.duration
 
 # ── Constants ──────────────────────────────────────────────────────────────────
 
-URDF_PATH   = "/tmp/iiwa7.urdf"
+URDF_PATH   = "/home/theo/drift/ros2_ws/src/my_package/urdf/kuka.urdf"
 EE_FRAME    = "lbr_link_ee"
 JOINT_NAMES = ["lbr_A1", "lbr_A2", "lbr_A3", "lbr_A4", "lbr_A5", "lbr_A6", "lbr_A7"]
 

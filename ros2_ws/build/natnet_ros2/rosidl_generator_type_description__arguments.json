@@ -1,0 +1,12 @@
+{
+  "package_name": "natnet_ros2",
+  "output_dir": "/home/theo/drift/ros2_ws/build/natnet_ros2/rosidl_generator_type_description/natnet_ros2",
+  "idl_tuples": [
+    "/home/theo/drift/ros2_ws/build/natnet_ros2/rosidl_adapter/natnet_ros2:srv/MarkerPoses.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

@@ -1,0 +1,278 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-159e9f7728ae38fe8a07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					]
+				},
+				{
+					"build" : "natnet_ros2__py",
+					"jsonFile" : "directory-natnet_ros2__py-13621307c2b6859892f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/theo/drift/ros2_ws/build/natnet_ros2/natnet_ros2__py",
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "natnet_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_natnet_ros2_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_natnet_ros2_egg-c04cf9373795c656ee3c.json",
+					"name" : "ament_cmake_python_build_natnet_ros2_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_natnet_ros2_py_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_natnet_ros2_py_egg-b4c82efe312dab18f99d.json",
+					"name" : "ament_cmake_python_build_natnet_ros2_py_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_natnet_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_natnet_ros2-0fe98a24e0be08911910.json",
+					"name" : "ament_cmake_python_symlink_natnet_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_natnet_ros2_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_natnet_ros2_py-aa5df37941758bf73c21.json",
+					"name" : "ament_cmake_python_symlink_natnet_ros2_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marker_poses_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marker_poses_server-6ef330a75015184da625.json",
+					"name" : "marker_poses_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2-796ffeaf801247f3a7fb.json",
+					"name" : "natnet_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2__cpp-517950f59fdd5f504204.json",
+					"name" : "natnet_ros2__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "natnet_ros2__py::@024d041bc039e99f861a",
+					"jsonFile" : "target-natnet_ros2__py-36a0bdab2880329e4ca3.json",
+					"name" : "natnet_ros2__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2__rosidl_generator_c-956eae21d5c8bcdb5021.json",
+					"name" : "natnet_ros2__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2__rosidl_generator_py-ec9f0efc99d7b3037de3.json",
+					"name" : "natnet_ros2__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2__rosidl_generator_type_description-1911f495c10ed895c350.json",
+					"name" : "natnet_ros2__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2__rosidl_typesupport_c-1ca4cc8c62bb81e05354.json",
+					"name" : "natnet_ros2__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2__rosidl_typesupport_cpp-329d33851027094749a1.json",
+					"name" : "natnet_ros2__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2__rosidl_typesupport_fastrtps_c-2aafe3c2bf4b7e04899c.json",
+					"name" : "natnet_ros2__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2__rosidl_typesupport_fastrtps_cpp-5ad5ae6bc3c8c6c91c7d.json",
+					"name" : "natnet_ros2__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2__rosidl_typesupport_introspection_c-6ac55cf56f9fa52080b9.json",
+					"name" : "natnet_ros2__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2__rosidl_typesupport_introspection_cpp-82e8ce6b0d3d9ef80257.json",
+					"name" : "natnet_ros2__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2_node-56bb69e0c3eb3cd31708.json",
+					"name" : "natnet_ros2_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2_s__rosidl_typesupport_c-d03a2a803e7fb465db4c.json",
+					"name" : "natnet_ros2_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2_s__rosidl_typesupport_fastrtps_c-ab5c59ba8b8e7868a9c5.json",
+					"name" : "natnet_ros2_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2_s__rosidl_typesupport_introspection_c-7ebf293607b6b5d805c5.json",
+					"name" : "natnet_ros2_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "natnet_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-natnet_ros2_uninstall-f7b3b0581dec4245a285.json",
+					"name" : "natnet_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-60cf10d2ae55c64972e2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/theo/drift/ros2_ws/build/natnet_ros2",
+		"source" : "/home/theo/drift/ros2_ws/src/natnet_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
