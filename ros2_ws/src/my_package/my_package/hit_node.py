@@ -30,6 +30,8 @@ from tf2_ros import Buffer, TransformListener
 import rclpy.time
 import rclpy.duration
 
+from std_srvs.srv import Trigger
+
 
 # ── Constants ──────────────────────────────────────────────────────────────────
 
@@ -84,9 +86,34 @@ class PinkHitNode(Node):
 
         # Run the sequence in a background thread so input() and threading.Event
         # don't block the ROS executor (which lives on the main thread).
+
+        self._confirm_approach_evt = threading.Event()
+        self._confirm_hit_evt      = threading.Event()
+        self._confirm_recoil_evt   = threading.Event()
+
+        self.create_service(Trigger, 'confirm_approach', self._on_confirm_approach)
+        self.create_service(Trigger, 'confirm_hit',      self._on_confirm_hit)
+        self.create_service(Trigger, 'confirm_recoil',   self._on_confirm_recoil)
+
         threading.Thread(target=self._run_sequence, daemon=True).start()
 
+    def _on_confirm_approach(self, request, response):
+        self._confirm_approach_evt.set()
+        response.success = True
+        response.message = "Approach confirmed."
+        return response
 
+    def _on_confirm_hit(self, request, response):
+        self._confirm_hit_evt.set()
+        response.success = True
+        response.message = "Hit confirmed."
+        return response
+
+    def _on_confirm_recoil(self, request, response):
+        self._confirm_recoil_evt.set()
+        response.success = True
+        response.message = "Recoil confirmed."
+        return response
 
 
     # ── Joint state ───────────────────────────────────────────────────────────
@@ -399,68 +426,78 @@ class PinkHitNode(Node):
 
     def _run_sequence(self) -> None:
         """
-        Runs entirely in a background thread.
+        Runs entirely in a background thread, looping indefinitely so
+        reps can be repeated without relaunching the node.
 
         Separating IK solving from execution means:
-          1. All phases are verified feasible before the robot moves at all.
-          2. The hit trajectory is ready instantly when the user confirms,
-             with no solve delay between approach finishing and hit starting.
+            1. All phases are verified feasible before the robot moves at all.
+            2. The hit trajectory is ready instantly when the user confirms,
+                with no solve delay between approach finishing and hit starting.
         """
-        self._wait_for_tf('world', 'object')
-        self._wait_for_tf('world', 'lbr_link_0')
+        rep = 0
+        while rclpy.ok():
+            rep += 1
+            self.get_logger().info(f"--- Rep {rep}: solving trajectories ---")
 
-        q_start = self._get_current_q()
+            self._wait_for_tf('world', 'object')
+            self._wait_for_tf('world', 'lbr_link_0')
 
-        object_pos, object_quat = self._get_object_pose()
-        self.get_logger().info(f"OBJECT POS:{object_pos}")
-        R = pin.Quaternion(object_quat[3], object_quat[0], object_quat[1], object_quat[2]).toRotationMatrix()
-        hit_direction = R[:, 0]  # local X axis of object in world frame
-        pre_impact_pos = object_pos - (hit_direction * APPROACH_OFFSET)
-        pre_impact_pos_base, R_b2w = self._to_base_frame(pre_impact_pos)
+            q_start = self._get_current_q()
 
-        self.get_logger().info(f"HIT DIR:{hit_direction}")
-        self.get_logger().info(f"PREIMPACT:{pre_impact_pos_base}")
+            object_pos, object_quat = self._get_object_pose()
+            self.get_logger().info(f"OBJECT POS:{object_pos}")
+            R = pin.Quaternion(object_quat[3], object_quat[0], object_quat[1], object_quat[2]).toRotationMatrix()
+            hit_direction = R[:, 0]  # local X axis of object in world frame
+            pre_impact_pos = object_pos - (hit_direction * APPROACH_OFFSET)
+            pre_impact_pos_base, R_b2w = self._to_base_frame(pre_impact_pos)
 
+            self.get_logger().info(f"HIT DIR:{hit_direction}")
+            self.get_logger().info(f"PREIMPACT:{pre_impact_pos_base}")
 
-        self.get_logger().info("Solving IK for approach config...")
-        q_approach = self._solve_ik_to(pre_impact_pos_base, q_start)
+            self.get_logger().info("Solving IK for approach config...")
+            q_approach = self._solve_ik_to(pre_impact_pos_base, q_start)
 
-        # verify IK result
-        pin.forwardKinematics(self._model, self._data, q_approach)
-        pin.updateFramePlacements(self._model, self._data)
-        frame_id = self._model.getFrameId(EE_FRAME)
-        ee_pos = self._data.oMf[frame_id].translation.copy()
-        self.get_logger().info(f"Target:  {pre_impact_pos_base}")
-        self.get_logger().info(f"EE pos after IK: {ee_pos}")
+            # verify IK result
+            pin.forwardKinematics(self._model, self._data, q_approach)
+            pin.updateFramePlacements(self._model, self._data)
+            frame_id = self._model.getFrameId(EE_FRAME)
+            ee_pos = self._data.oMf[frame_id].translation.copy()
+            self.get_logger().info(f"Target:  {pre_impact_pos_base}")
+            self.get_logger().info(f"EE pos after IK: {ee_pos}")
 
-        hit_direction_base = R_b2w.T @ hit_direction
-        v_desired    = np.zeros(6)
-        v_desired[:3] = hit_direction_base * HIT_VELOCITY
+            hit_direction_base = R_b2w.T @ hit_direction
+            v_desired     = np.zeros(6)
+            v_desired[:3] = hit_direction_base * HIT_VELOCITY
 
-        self.get_logger().info(f"Solving hit waypoints ({N_HIT_STEPS} steps)...")
-        waypoints   = self._solve_hit_waypoints(q_approach, v_desired)
-        q_hit_final = waypoints[-1]
+            self.get_logger().info(f"Solving hit waypoints ({N_HIT_STEPS} steps)...")
+            waypoints   = self._solve_hit_waypoints(q_approach, v_desired)
+            q_hit_final = waypoints[-1]
 
-        self.get_logger().info("All solved. Ready to execute.")
+            self.get_logger().info("All solved. Ready to execute.")
 
-        approach_goal = self._build_approach_trajectory(q_start, q_approach)
-        hit_goal      = self._build_hit_trajectory(waypoints)
-        recoil_goal   = self._build_recoil_trajectory(q_hit_final, q_approach)
+            approach_goal = self._build_approach_trajectory(q_start, q_approach)
+            hit_goal      = self._build_hit_trajectory(waypoints)
+            recoil_goal   = self._build_recoil_trajectory(q_hit_final, q_approach)
 
-        input("\n[APPROACH] Press Enter to move to pre-impact config...")
-        if not self._execute_trajectory(approach_goal, "Approach"):
-            return
+            self._confirm_approach_evt.clear()
+            self.get_logger().info("Waiting on service 'confirm_approach'...")
+            self._confirm_approach_evt.wait()
+            if not self._execute_trajectory(approach_goal, "Approach"):
+                continue
 
-        input("\n[HIT] Press Enter to execute hit...")
-        if not self._execute_trajectory(hit_goal, "Hit"):
-            return
+            self._confirm_hit_evt.clear()
+            self.get_logger().info("Waiting on service 'confirm_hit'...")
+            self._confirm_hit_evt.wait()
+            if not self._execute_trajectory(hit_goal, "Hit"):
+                continue
 
-        input("\n[RECOIL] Press Enter to recoil to approach config...")
-        if not self._execute_trajectory(recoil_goal, "Recoil"):
-            return
+            self._confirm_recoil_evt.clear()
+            self.get_logger().info("Waiting on service 'confirm_recoil'...")
+            self._confirm_recoil_evt.wait()
+            if not self._execute_trajectory(recoil_goal, "Recoil"):
+                continue
 
-        self.get_logger().info("Sequence complete.")
-
+            self.get_logger().info(f"--- Rep {rep} complete. Ready for next rep. ---")
 
 # ── Entry point ────────────────────────────────────────────────────────────────
 

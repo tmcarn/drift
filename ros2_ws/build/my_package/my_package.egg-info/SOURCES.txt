@@ -1,6 +1,8 @@
 package.xml
 setup.cfg
 setup.py
+config/kuka.rviz
+launch/hardware.launch.py
 launch/mock.launch.py
 my_package/__init__.py
 my_package/hit_node.py
@@ -12,5 +14,3 @@ my_package.egg-info/requires.txt
 my_package.egg-info/top_level.txt
 my_package.egg-info/zip-safe
 resource/my_package
-urdf/arm.urdf.xacro
-urdf/diff_drive.urdf.xacro

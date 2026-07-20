@@ -1,5 +1,5 @@
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription, ExecuteProcess, TimerAction
+from launch.actions import IncludeLaunchDescription, ExecuteProcess
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
@@ -12,7 +12,7 @@ def generate_launch_description():
 
     mock = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            os.path.join(lbr_share, 'launch', 'mock.launch.py')
+            os.path.join(lbr_share, 'launch', 'hardware.launch.py')
         ),
         launch_arguments={'model': 'iiwa7'}.items(),
     )
@@ -65,5 +65,6 @@ def generate_launch_description():
         move_group,
         static_tf,
         mock_optitrack,
-        TimerAction(period=5.0, actions=[hit_node]),
+        # Delay hit node to give controller time to come up
+        # TimerAction(period=5.0, actions=[hit_node]),
     ])
