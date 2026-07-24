@@ -1,5 +1,5 @@
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription # TimerAction, ExecuteProcess
+from launch.actions import IncludeLaunchDescription, ExecuteProcess, TimerAction
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
@@ -53,11 +53,12 @@ def generate_launch_description():
         output='screen',
     )
 
-    # hit_node = ExecuteProcess(
-    #     cmd=['/home/theo/roskuka/bin/python3', 
-    #         '/home/theo/drift/ros2_ws/src/my_package/my_package/hit_node.py'],
-    #     output='screen',
-    # )
+    force_node = ExecuteProcess(
+        cmd=['/home/theo/roskuka/bin/python3', 
+            '/home/theo/drift/ros2_ws/src/my_package/my_package/force_node.py'],
+        output='screen',
+    )
+
 
     return LaunchDescription([
         mock,
@@ -65,6 +66,5 @@ def generate_launch_description():
         move_group,
         static_tf,
         mock_optitrack,
-        # Delay hit node to give controller time to come up
-        # TimerAction(period=5.0, actions=[hit_node]),
+        TimerAction(period=5.0, actions=[force_node]),
     ])

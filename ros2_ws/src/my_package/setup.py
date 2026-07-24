@@ -30,7 +30,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'hit_node = my_package.hit_node:main'
+            'hit_node = my_package.hit_node:main',
+            'force_node = my_package.force_node:main',
         ],
     },
 )

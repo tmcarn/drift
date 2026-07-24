@@ -106,6 +106,11 @@ Follow the prompts to execute each phase.
 
 ---
 
+## Connecting to Hardware
+ip link show
+ip addr show enx00e04cd501e1
+sudo ip addr add 172.31.1.148/24 dev enx00e04cd501e1
+
 ## TODO: Switching to Real Hardware
 
 1. Enable VRPN streaming in OptiTrack Motive — Edit → Settings → Streaming
